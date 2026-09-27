@@ -3,7 +3,7 @@ import type Konva from 'konva';
 import { Layer, Rect, Stage } from 'react-konva';
 import { CANVAS, resolveColor } from '../design-system/designTokens';
 import type { Slide } from '../types/carouselTypes';
-import { ElementNode, type RenderCtx } from './nodes';
+import { ElementNode, GrainOverlay, type RenderCtx } from './nodes';
 
 /**
  * Static render of a slide (thumbnails, preview and PNG export).
@@ -22,6 +22,7 @@ export const SlideStage = forwardRef<Konva.Stage, { slide: Slide; rc: RenderCtx;
           .map((el) => (
             <ElementNode key={el.id} el={el} rc={rc} listening={false} />
           ))}
+        <GrainOverlay amount={rc.grain} width={CANVAS.width} height={CANVAS.height} />
       </Layer>
     </Stage>
   );

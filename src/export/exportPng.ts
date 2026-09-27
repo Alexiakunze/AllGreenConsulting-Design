@@ -59,7 +59,7 @@ export async function renderSlide(slide: Slide, rc: RenderCtx, pixelRatio = 1): 
   }
 }
 
-export const renderContext = (p: Project, logos: RenderCtx['logos']): RenderCtx => ({ palette: p.palette, assets: p.assets, logos });
+export const renderContext = (p: Project, logos: RenderCtx['logos']): RenderCtx => ({ palette: p.palette, assets: p.assets, logos, grain: p.settings.grain ?? 0 });
 
 
 export interface ExportedFile {

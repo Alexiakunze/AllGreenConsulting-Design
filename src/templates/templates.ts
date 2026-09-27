@@ -1,18 +1,34 @@
-import { CANVAS, CONTENT_WIDTH, LAYOUT, TYPE_SCALE, tok, type ColorToken } from '../design-system/designTokens';
+import { CANVAS, CONTENT_WIDTH, LAYOUT, tok, type ColorToken } from '../design-system/designTokens';
 import type {
   CarouselElement,
-  CarouselSettings,
   ContentKey,
   ImageElement,
   Slide,
-  SlideContent,
   SlideTheme,
   TemplateId,
   TextElement,
 } from '../types/carouselTypes';
 import { pad2 } from '../utils/id';
-import { fitFontSize } from '../utils/textLayout';
 import { bindText, logoHeightFor, makeLogo, makeShape, makeTag, makeText } from './elementFactory';
+import {
+  accentRule,
+  anchorBottom,
+  BOTTOM,
+  centerIn,
+  chrome,
+  CONTENT_BOTTOM,
+  extraBlock,
+  eyebrowText,
+  fitted,
+  M,
+  stack,
+  THEMES,
+  type TemplateContext,
+  type TemplateDef,
+} from './templateKit';
+import { counterText, MOVEMENT_BUILDERS } from './movementTemplates';
+
+export { THEMES, type TemplateContext, type TemplateDef } from './templateKit';
 
 /**
  * ALL GREEN TEMPLATE SYSTEM
@@ -26,244 +42,6 @@ import { bindText, logoHeightFor, makeLogo, makeShape, makeTag, makeText } from 
  *  - Orange used sparingly: highlight, number, arch
  *  - Tight Space Grotesk headlines (negative tracking), airy body text
  */
-
-export interface TemplateContext {
-  index: number;
-  total: number;
-  theme: SlideTheme;
-  settings: CarouselSettings;
-}
-
-interface ThemeColors {
-  bg: string;
-  text: string;
-  muted: string;
-  mutedOpacity: number;
-  accent: string;
-  card: string;
-  cardText: string;
-  rule: string;
-}
-
-export const THEMES: Record<SlideTheme, ThemeColors> = {
-  dark: {
-    bg: tok('primary'),
-    text: tok('light'),
-    muted: tok('muted'),
-    mutedOpacity: 1,
-    accent: tok('secondary'),
-    card: tok('dark'),
-    cardText: tok('light'),
-    rule: tok('muted'),
-  },
-  light: {
-    bg: tok('light'),
-    text: tok('primary'),
-    muted: tok('muted'),
-    mutedOpacity: 1,
-    accent: tok('secondary'),
-    card: tok('sand'),
-    cardText: tok('primary'),
-    rule: tok('primary'),
-  },
-  accent: {
-    bg: tok('secondary'),
-    text: tok('light'),
-    muted: tok('light'),
-    mutedOpacity: 0.75,
-    accent: tok('primary'),
-    card: tok('primary'),
-    cardText: tok('light'),
-    rule: tok('light'),
-  },
-};
-
-export interface TemplateDef {
-  id: TemplateId;
-  number: string;
-  name: string;
-  description: string;
-  defaultTheme: SlideTheme;
-  /** Fields the template shows directly */
-  uses: ContentKey[];
-  build: (c: SlideContent, ctx: TemplateContext) => CarouselElement[];
-}
-
-const M = LAYOUT.safeMargin;
-const BOTTOM = CANVAS.height - M; // 1270
-const CONTENT_BOTTOM = 1170; // above the footer
-
-// ────────────────────────────────────────────── helpers
-
-function chrome(ctx: TemplateContext, opts: { header?: boolean; footer?: boolean; arrow?: boolean; counter?: boolean } = {}) {
-  const t = THEMES[ctx.theme];
-  const els: CarouselElement[] = [];
-  const { settings } = ctx;
-  const header = opts.header ?? true;
-  const footer = opts.footer ?? true;
-  if (header && settings.showHeader) {
-    els.push(
-      makeText(settings.eyebrowDefault, {
-        name: 'Cabeçalho',
-        role: 'chrome',
-        style: 'caption',
-        uppercase: true,
-        letterSpacing: 0.16,
-        fontWeight: 600,
-        color: t.muted,
-        opacity: t.mutedOpacity,
-        x: M,
-        y: M,
-        width: 640,
-      }),
-    );
-  }
-  if (header && settings.showCounter && (opts.counter ?? true)) {
-    els.push(
-      makeText(`${pad2(ctx.index + 1)} / ${pad2(ctx.total)}`, {
-        name: 'Contador',
-        role: 'counter',
-        style: 'caption',
-        fontWeight: 600,
-        letterSpacing: 0.1,
-        align: 'right',
-        color: t.muted,
-        opacity: t.mutedOpacity,
-        x: CANVAS.width - M - 240,
-        y: M,
-        width: 240,
-      }),
-    );
-  }
-  if (footer && settings.showFooter) {
-    els.push(
-      makeText(settings.handle, {
-        name: 'Handle',
-        role: 'chrome',
-        style: 'caption',
-        fontWeight: 500,
-        color: t.muted,
-        opacity: t.mutedOpacity,
-        x: M,
-        y: BOTTOM - 26,
-        width: 600,
-      }),
-    );
-    if (opts.arrow ?? ctx.index < ctx.total - 1) {
-      els.push(
-        makeShape('arrow', {
-          name: 'Seta (arraste)',
-          role: 'chrome',
-          x: CANVAS.width - M - 72,
-          y: BOTTOM - 26,
-          width: 72,
-          height: 26,
-          fill: t.text,
-          stroke: t.text,
-          strokeWidth: 3,
-        }),
-      );
-    }
-  }
-  return els;
-}
-
-/** Stacks elements vertically starting at `y` with gaps */
-function stack(items: Array<CarouselElement | number | null | undefined | false>, startY: number) {
-  let y = startY;
-  const out: CarouselElement[] = [];
-  for (const it of items) {
-    if (it === null || it === undefined || it === false) continue;
-    if (typeof it === 'number') {
-      y += it;
-      continue;
-    }
-    it.y = Math.round(y);
-    y += it.height;
-    out.push(it);
-  }
-  return { els: out, bottom: y };
-}
-
-/** Centers a group of elements vertically between top and bottom */
-function centerIn(els: CarouselElement[], top: number, bottom: number, bias = 0.45) {
-  if (!els.length) return els;
-  const minY = Math.min(...els.map((e) => e.y));
-  const maxY = Math.max(...els.map((e) => e.y + e.height));
-  const h = maxY - minY;
-  const target = Math.max(top, top + (bottom - top - h) * bias);
-  const dy = target - minY;
-  els.forEach((e) => (e.y = Math.round(e.y + dy)));
-  return els;
-}
-
-function anchorBottom(els: CarouselElement[], bottom: number) {
-  if (!els.length) return els;
-  const maxY = Math.max(...els.map((e) => e.y + e.height));
-  const dy = bottom - maxY;
-  els.forEach((e) => (e.y = Math.round(e.y + dy)));
-  return els;
-}
-
-function fitted(
-  text: string,
-  style: keyof typeof TYPE_SCALE,
-  width: number,
-  limits: { max?: number; min: number; maxHeight?: number; maxLines?: number },
-  weight?: number,
-) {
-  const s = TYPE_SCALE[style];
-  return fitFontSize(
-    { text, fontWeight: weight ?? s.fontWeight, lineHeight: s.lineHeight, letterSpacing: s.letterSpacing, width, align: 'left' },
-    limits.max ?? s.fontSize,
-    limits.min,
-    { maxHeight: limits.maxHeight, maxLines: limits.maxLines, singleLineWidth: true },
-  );
-}
-
-/** Fields the template does not show → an extra block so no content is lost */
-function leftovers(c: SlideContent, uses: ContentKey[]): string {
-  const out: string[] = [];
-  const has = (k: ContentKey) => uses.includes(k);
-  if (c.headline && !has('headline')) out.push(c.headline);
-  if (c.quote && !has('quote')) out.push(`“${c.quote}”`);
-  if (c.number && !has('number')) out.push(c.number);
-  if (c.body && !has('body')) out.push(c.body);
-  if (c.items?.length && !has('items')) out.push(c.items.map((i) => `• ${i}`).join('\n'));
-  if ((c.leftBody || c.leftTitle) && !has('leftBody')) out.push(`${c.leftTitle ?? 'A'}: ${c.leftBody ?? ''}`);
-  if ((c.rightBody || c.rightTitle) && !has('rightBody')) out.push(`${c.rightTitle ?? 'B'}: ${c.rightBody ?? ''}`);
-  if (c.cta && !has('cta')) out.push(c.cta);
-  if (c.author && !has('author')) out.push(`— ${c.author}`);
-  if (c.name && !has('name')) out.push(c.name);
-  if (c.date && !has('date')) out.push(c.date);
-  if (c.source && !has('source')) out.push(`Fonte: ${c.source}`);
-  return out.join('\n');
-}
-
-function extraBlock(c: SlideContent, uses: ContentKey[], t: ThemeColors, width = CONTENT_WIDTH) {
-  const txt = leftovers(c, uses);
-  if (!txt) return null;
-  return makeText(txt, {
-    name: 'Conteúdo extra',
-    role: 'extra',
-    style: 'bodySm',
-    color: t.text,
-    opacity: 0.8,
-    width,
-  });
-}
-
-const accentRule = (t: ThemeColors, w = 72, h = 8) =>
-  makeShape('rect', { name: 'Régua de destaque', role: 'decor', x: M, width: w, height: h, fill: t.accent });
-
-const eyebrowText = (text: string, t: ThemeColors) =>
-  bindText('eyebrow', text, {
-    name: 'Eyebrow',
-    role: 'eyebrow',
-    style: 'eyebrow',
-    uppercase: true,
-    color: t.accent,
-  });
 
 // ────────────────────────────────────────────── templates
 
@@ -800,7 +578,8 @@ export const THEME_LABELS: Record<SlideTheme, string> = {
 export function applyTemplate(slide: Slide, template: TemplateId, ctx: Omit<TemplateContext, 'theme'> & { theme?: SlideTheme }): Slide {
   const theme = ctx.theme ?? slide.theme;
   const def = TEMPLATES[template];
-  const generated = def.build(slide.content, { ...ctx, theme });
+  const full = { ...ctx, theme };
+  const generated = ctx.settings.style === 'movement' ? MOVEMENT_BUILDERS[template](slide.content, full, def.uses) : def.build(slide.content, full);
   const userEls = slide.elements.filter((e) => !e.templateOwned);
   const slotIdx = generated.findIndex((e) => e.role === 'photoSlot');
   const photo = userEls.find((e): e is ImageElement => e.type === 'image' && e.role !== 'free');
@@ -815,7 +594,8 @@ export function applyTemplate(slide: Slide, template: TemplateId, ctx: Omit<Temp
       width: slot.width,
       height: slot.height,
       rotation: 0,
-      mask: 'arch',
+      mask: slot.type === 'shape' && slot.shape === 'arch' ? 'arch' : 'rect',
+      cornerRadius: 0,
       role: 'photo',
     };
     elements = [...generated.slice(0, slotIdx), placed, ...generated.slice(slotIdx + 1), ...userEls.filter((e) => e.id !== photo.id)];
@@ -831,7 +611,7 @@ export function refreshCounters(slides: Slide[]): Slide[] {
     ...s,
     elements: s.elements.map((e) => {
       if (e.type === 'text' && e.role === 'counter') {
-        return { ...e, text: `${pad2(i + 1)} / ${pad2(slides.length)}` };
+        return { ...e, text: e.text.startsWith('(') ? counterText(i, slides.length) : `${pad2(i + 1)} / ${pad2(slides.length)}` };
       }
       return e;
     }),

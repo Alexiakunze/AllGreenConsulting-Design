@@ -37,7 +37,8 @@ export function useRenderCtx(): RenderCtx | null {
   const logos = useEditor((s) => s.brandLogos);
   const palette = project?.palette;
   const assets = project?.assets;
-  return useMemo(() => (palette && assets ? { palette, assets, logos } : null), [palette, assets, logos]);
+  const grain = project?.settings.grain ?? 0;
+  return useMemo(() => (palette && assets ? { palette, assets, logos, grain } : null), [palette, assets, logos, grain]);
 }
 
 export function EditorView() {

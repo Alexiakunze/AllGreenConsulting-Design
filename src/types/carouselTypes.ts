@@ -42,7 +42,7 @@ export type ContentKey = keyof SlideContent;
 
 export type ElementType = 'text' | 'shape' | 'image' | 'logo' | 'tag';
 
-export type ShapeKind = 'rect' | 'ellipse' | 'line' | 'arrow' | 'arch' | 'archOutline';
+export type ShapeKind = 'rect' | 'ellipse' | 'line' | 'arrow' | 'arch' | 'archOutline' | 'scrim';
 
 export type ImageMask = 'rect' | 'arch' | 'circle';
 
@@ -171,7 +171,14 @@ export interface Asset {
   logoVariant?: LogoVariant;
 }
 
+/** Visual language of the templates */
+export type VisualStyle = 'movement' | 'editorial';
+
 export interface CarouselSettings {
+  /** movement = inspired by Dunamis Movement / Big Wave Media · editorial = classic */
+  style: VisualStyle;
+  /** Film grain intensity over the whole slide (0–1) */
+  grain: number;
   showHeader: boolean;
   showFooter: boolean;
   showCounter: boolean;

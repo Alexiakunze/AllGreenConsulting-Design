@@ -95,6 +95,7 @@ function shapeName(s: ShapeKind) {
       arrow: 'Seta',
       arch: 'Arco All Green',
       archOutline: 'Arco (contorno)',
+      scrim: 'Degradê',
     } as const
   )[s];
 }

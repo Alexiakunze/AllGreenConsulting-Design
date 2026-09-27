@@ -4,7 +4,7 @@ import { Layer, Line, Rect, Stage, Transformer } from 'react-konva';
 import { CANVAS, CONTENT_WIDTH, FONTS, LAYOUT, resolveColor } from '../design-system/designTokens';
 import { UI_COLORS } from '../design-system/uiTokens';
 import type { CarouselElement, TextElement } from '../types/carouselTypes';
-import { ElementNode, type RenderCtx } from './nodes';
+import { ElementNode, GrainOverlay, type RenderCtx } from './nodes';
 import {
   currentSlide,
   getState,
@@ -293,6 +293,7 @@ export function EditorCanvas({ rc }: { rc: RenderCtx }) {
                     onCropChange={(ox, oy) => updateElement(el.id, { offsetX: ox, offsetY: oy })}
                   />
                 ))}
+              <GrainOverlay amount={rc.grain} width={CANVAS.width} height={CANVAS.height} />
             </Layer>
             <Layer listening={false}>
               {showGrid && (

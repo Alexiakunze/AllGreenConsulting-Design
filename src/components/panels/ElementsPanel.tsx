@@ -204,6 +204,7 @@ function ShapeTile({ kind, label, preview }: { kind: ShapeKind; label: string; p
           ellipse: [240, 240],
           line: [400, 4],
           arrow: [120, 32],
+          scrim: [1080, 600],
         };
         const [w, h] = size[kind];
         const strokeKinds: ShapeKind[] = ['line', 'arrow', 'archOutline'];

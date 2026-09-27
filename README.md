@@ -23,6 +23,20 @@ npm run build      # production build (dist/)
    to type or crop), switch templates without losing content, add images, reorder slides.
 4. **Exportar carrossel** → current slide (`01.png`) or all of them (ZIP with `01.png`, `02.png`…).
 
+## Visual styles
+
+- **Movimento** (default): inspired by the visual language of Dunamis Movement /
+  Big Wave Media, translated to the All Green palette. It has giant uppercase headlines
+  (Space Grotesk 700, tight leading and tracking), a poster frame (thin rules plus
+  small-caps metadata `ALL GREEN CONSULTING … (03/08)`), film grain over the whole slide,
+  full-bleed photos in black & white with a gradient in the background color, a
+  full-width CTA bar and the logo arch as a tone-on-tone mass. Code:
+  `src/templates/movementTemplates.ts`.
+- **Editorial**: the original classic composition (`src/templates/templates.ts`).
+
+Switch in **Identidade › Estilo visual** (it reorganizes every slide without changing the text);
+the grain intensity is adjusted on the same screen.
+
 ## Brand identity (source of truth)
 
 Colors extracted from the official files in Drive (`Identidade Visual › PNG`):

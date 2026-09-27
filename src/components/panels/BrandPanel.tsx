@@ -3,7 +3,7 @@ import { COLOR_LABELS, TYPE_SCALE, type ColorToken } from '../../design-system/d
 import { LOGO_LABELS, LOGO_VARIANTS } from '../../design-system/brandAssets';
 import { fileToAsset, resetPalette, setBrandLogo, setPaletteColor, updateSettings, useEditor } from '../../editor/store';
 import type { LogoVariant } from '../../types/carouselTypes';
-import { Button, Label, Section, TextInput, Toggle } from '../ui';
+import { Button, Label, Section, Slider, TextInput, Toggle } from '../ui';
 
 const TOKENS: ColorToken[] = ['primary', 'secondary', 'dark', 'light', 'white', 'accent', 'text', 'muted', 'sand'];
 
@@ -14,6 +14,30 @@ export function BrandPanel() {
 
   return (
     <div>
+      <Section title="Estilo visual">
+        <div className="grid grid-cols-2 gap-2">
+          {(
+            [
+              ['movement', 'Movimento', 'Tipografia gigante em caixa alta, moldura de pôster, grão e fotos P&B — inspirado em Dunamis / Big Wave.'],
+              ['editorial', 'Editorial', 'Composição clássica, arco em destaque, headlines em caixa baixa.'],
+            ] as const
+          ).map(([id, label, desc]) => (
+            <button
+              key={id}
+              onClick={() => settings.style !== id && updateSettings({ style: id, grain: id === 'movement' ? Math.max(settings.grain, 0.22) : 0 })}
+              className={`rounded-lg border p-3 text-left ${settings.style === id ? 'border-brand bg-brand-soft' : 'border-line hover:bg-panel-2'}`}
+            >
+              <div className="text-[12.5px] font-semibold">{label}</div>
+              <div className="mt-1 text-[11px] leading-snug text-muted">{desc}</div>
+            </button>
+          ))}
+        </div>
+        <p className="mt-2 text-[11px] text-faint">Trocar o estilo reorganiza todos os slides (o texto não muda).</p>
+        <div className="mt-3">
+          <Slider label="Grão / textura" value={settings.grain} min={0} max={0.6} step={0.01} format={(v) => `${Math.round(v * 100)}%`} onChange={(v) => updateSettings({ grain: v })} />
+        </div>
+      </Section>
+
       <Section
         title="Cores (tokens)"
         actions={

@@ -103,6 +103,8 @@ export function useEditor<T>(selector: (s: EditorState) => T): T {
 // ─────────────────────────────────────────── defaults
 
 export const DEFAULT_SETTINGS: CarouselSettings = {
+  style: 'movement',
+  grain: 0.22,
   showHeader: true,
   showFooter: true,
   showCounter: true,
@@ -628,7 +630,7 @@ export function updateSettings(patch: Partial<CarouselSettings>) {
   mutateProject(
     (d) => {
       d.settings = { ...d.settings, ...patch };
-      const structural = 'showHeader' in patch || 'showFooter' in patch || 'showCounter' in patch;
+      const structural = 'showHeader' in patch || 'showFooter' in patch || 'showCounter' in patch || 'style' in patch;
       if (structural) {
         d.slides = d.slides.map((s, index) => applyTemplate(s, s.template, { index, total: d.slides.length, settings: d.settings, theme: s.theme }));
         return;
@@ -695,7 +697,17 @@ export function insertImage(asset: Asset) {
   const slot = slide.elements.find((e) => e.role === 'photoSlot' && e.templateOwned);
   let el: ImageElement;
   if (slot) {
-    el = makeImage(asset.id, { x: slot.x, y: slot.y, width: slot.width, height: slot.height, mask: 'arch', role: 'photo', name: asset.name, templateOwned: false });
+    el = makeImage(asset.id, {
+      x: slot.x,
+      y: slot.y,
+      width: slot.width,
+      height: slot.height,
+      mask: slot.type === 'shape' && slot.shape === 'arch' ? 'arch' : 'rect',
+      treatment: state.project?.settings.style === 'movement' ? 'mono' : 'none',
+      role: 'photo',
+      name: asset.name,
+      templateOwned: false,
+    });
     mutateSlide(slide.id, (s) => {
       const i = s.elements.findIndex((e) => e.id === slot.id);
       s.elements.splice(i, 1, el);
@@ -713,6 +725,7 @@ export function insertImage(asset: Asset) {
     width: w,
     height: h,
     cornerRadius: 0,
+    treatment: state.project?.settings.style === 'movement' ? 'mono' : 'none',
     name: asset.name,
     role: 'free',
     templateOwned: false,

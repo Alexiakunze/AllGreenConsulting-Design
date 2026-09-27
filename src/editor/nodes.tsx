@@ -20,6 +20,50 @@ export interface RenderCtx {
   palette: BrandPalette;
   assets: Record<string, Asset>;
   logos: Partial<Record<LogoVariant, Asset>>;
+  /** Film grain intensity (0–1) */
+  grain?: number;
+}
+
+// ───────────────────────────────────────── film grain
+
+let noiseCanvas: HTMLCanvasElement | null = null;
+/** Deterministic noise (same seed → identical export every time) */
+function getNoise() {
+  if (noiseCanvas) return noiseCanvas;
+  const size = 256;
+  const c = document.createElement('canvas');
+  c.width = size;
+  c.height = size;
+  const ctx = c.getContext('2d')!;
+  const img = ctx.createImageData(size, size);
+  let seed = 1234567;
+  const rand = () => {
+    seed = (seed * 1664525 + 1013904223) >>> 0;
+    return seed / 4294967296;
+  };
+  for (let i = 0; i < img.data.length; i += 4) {
+    const v = Math.round(128 + (rand() + rand() - 1) * 110);
+    img.data[i] = img.data[i + 1] = img.data[i + 2] = v;
+    img.data[i + 3] = 255;
+  }
+  ctx.putImageData(img, 0, 0);
+  noiseCanvas = c;
+  return c;
+}
+
+export function GrainOverlay({ amount, width, height }: { amount?: number; width: number; height: number }) {
+  if (!amount || amount <= 0) return null;
+  return (
+    <Rect
+      width={width}
+      height={height}
+      fillPatternImage={getNoise() as unknown as HTMLImageElement}
+      fillPatternRepeat="repeat"
+      opacity={Math.min(1, amount)}
+      globalCompositeOperation="overlay"
+      listening={false}
+    />
+  );
 }
 
 const FONT_FAMILY = `${FONTS.primary}, ${FONTS.fallback}`;
@@ -183,6 +227,19 @@ function ShapeContent({ el, rc }: { el: ShapeElement; rc: RenderCtx }) {
           {...shadow}
         />
       );
+    case 'scrim': {
+      // Vertical gradient: transparent at the top → solid color at the bottom
+      const solid = fill.startsWith('#') && fill.length === 7 ? fill : '#000000';
+      return (
+        <Rect
+          width={w}
+          height={h}
+          fillLinearGradientStartPoint={{ x: 0, y: 0 }}
+          fillLinearGradientEndPoint={{ x: 0, y: h }}
+          fillLinearGradientColorStops={[0, `${solid}00`, 0.55, `${solid}B3`, 1, solid]}
+        />
+      );
+    }
     case 'archOutline':
       return (
         <>
@@ -388,6 +445,11 @@ function TagContent({ el, rc }: { el: TagElement; rc: RenderCtx }) {
 
 // ───────────────────────────────────────── generic node
 
+/** Invisible placeholders and gradients let clicks through (selectable via Layers) */
+const clickThrough = (el: CarouselElement) =>
+  (el.type === 'shape' && el.shape === 'scrim') || (el.role === 'photoSlot' && el.opacity === 0);
+
+
 export interface NodeHandlers {
   draggable?: boolean;
   onMouseDown?: (e: Konva.KonvaEventObject<MouseEvent | TouchEvent>) => void;
@@ -425,7 +487,7 @@ export function ElementNode({
       y={el.y}
       rotation={el.rotation}
       opacity={el.opacity}
-      listening={listening}
+      listening={listening && !clickThrough(el)}
       draggable={handlers.draggable && !cropMode}
       onMouseDown={handlers.onMouseDown}
       onTouchStart={handlers.onMouseDown}
