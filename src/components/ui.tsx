@@ -271,3 +271,27 @@ export function Modal({ children, onClose, className }: { children: ReactNode; o
     </div>
   );
 }
+
+/** Button that asks for a second click to confirm (confirm() is blocked in some browsers) */
+export function ConfirmButton({ onConfirm, children, confirmLabel = 'Clique de novo para confirmar', ...rest }: Omit<ButtonHTMLAttributes<HTMLButtonElement>, 'onClick'> & { onConfirm: () => void; confirmLabel?: string; variant?: Variant; size?: 'sm' | 'md' | 'lg' }) {
+  const [armed, setArmed] = useState(false);
+  useEffect(() => {
+    if (!armed) return;
+    const t = setTimeout(() => setArmed(false), 3000);
+    return () => clearTimeout(t);
+  }, [armed]);
+  return (
+    <Button
+      {...rest}
+      variant={armed ? 'danger' : rest.variant}
+      onClick={() => {
+        if (armed) {
+          setArmed(false);
+          onConfirm();
+        } else setArmed(true);
+      }}
+    >
+      {armed ? confirmLabel : children}
+    </Button>
+  );
+}

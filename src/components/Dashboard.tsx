@@ -8,6 +8,7 @@ import { Button } from './ui';
 export function Dashboard() {
   const [projects, setProjects] = useState<ProjectMeta[] | null>(null);
   const fileRef = useRef<HTMLInputElement>(null);
+  const [armed, setArmed] = useState<string | null>(null);
 
   const refresh = () =>
     db
@@ -100,15 +101,18 @@ export function Dashboard() {
                       {p.slideCount} slides · {new Date(p.updatedAt).toLocaleDateString('pt-BR', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' })}
                     </div>
                   </button>
-                  <div className="flex opacity-0 transition-opacity group-hover:opacity-100">
+                  <div className="flex opacity-0 transition-opacity group-hover:opacity-100 focus-within:opacity-100">
                     <button title="Duplicar" className="rounded p-1 hover:bg-black/5" onClick={() => void duplicateProject(p.id).then(refresh)}>
                       <Icon.copy width={14} height={14} />
                     </button>
                     <button
-                      title="Excluir"
-                      className="rounded p-1 text-danger hover:bg-red-50"
+                      title={armed === p.id ? 'Clique de novo para excluir' : 'Excluir'}
+                      className={`rounded p-1 text-danger hover:bg-red-50 ${armed === p.id ? 'bg-red-50 ring-1 ring-danger' : ''}`}
                       onClick={() => {
-                        if (confirm(`Excluir o projeto "${p.name}"?`)) void db.deleteProject(p.id).then(refresh);
+                        if (armed === p.id) {
+                          setArmed(null);
+                          void db.deleteProject(p.id).then(refresh);
+                        } else setArmed(p.id);
                       }}
                     >
                       <Icon.trash width={14} height={14} />

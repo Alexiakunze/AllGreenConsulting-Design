@@ -3,7 +3,7 @@ import { appendParsedSlides, currentSlide, setState, updateContent, useEditor, t
 import { TEMPLATES } from '../../templates/templates';
 import type { ContentKey, Slide } from '../../types/carouselTypes';
 import { parseCarousel } from '../../utils/parser';
-import { Button, Label, Section, Segmented, Select, TextArea, Toggle } from '../ui';
+import { Button, ConfirmButton, Label, Section, Segmented, Select, TextArea, Toggle } from '../ui';
 
 export const FIELD_META: Record<ContentKey, { label: string; multiline?: boolean }> = {
   tag: { label: 'Tag' },
@@ -122,14 +122,9 @@ function ImportText() {
           </div>
           <div className="grid grid-cols-2 gap-2 pt-2">
             <Button onClick={() => appendParsedSlides(parsed, style, false)}>Adicionar ao final</Button>
-            <Button
-              variant="primary"
-              onClick={() => {
-                if (confirm('Substituir todos os slides atuais pelos slides detectados?')) appendParsedSlides(parsed, style, true);
-              }}
-            >
+            <ConfirmButton variant="primary" confirmLabel="Confirmar?" onConfirm={() => appendParsedSlides(parsed, style, true)}>
               Substituir slides
-            </Button>
+            </ConfirmButton>
           </div>
         </div>
       )}

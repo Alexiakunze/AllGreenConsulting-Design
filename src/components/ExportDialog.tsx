@@ -1,7 +1,8 @@
-import { useState } from 'react';
-import { exportAllSlides, exportCurrentSlide } from '../export/exportPng';
+import { useEffect, useState } from 'react';
+import { exportAllSlides, exportCurrentSlide, type ExportedFile } from '../export/exportPng';
 import { getState, setState, slugify, toast, useEditor } from '../editor/store';
 import { pad2 } from '../utils/id';
+import { saveFile } from '../utils/download';
 import { Icon } from './Icons';
 import { Button, Modal, cx } from './ui';
 
@@ -10,21 +11,25 @@ export function ExportDialog() {
   const currentId = useEditor((s) => s.currentSlideId);
   const [mode, setMode] = useState<'current' | 'all'>('all');
   const [busy, setBusy] = useState<string | null>(null);
+  const [files, setFiles] = useState<Array<ExportedFile & { url: string }> | null>(null);
   const close = () => !busy && setState({ exportOpen: false });
   const idx = project.slides.findIndex((s) => s.id === currentId);
+
+  useEffect(() => () => files?.forEach((f) => URL.revokeObjectURL(f.url)), [files]);
 
   const run = async () => {
     const logos = getState().brandLogos;
     try {
+      let out: ExportedFile[];
       if (mode === 'current' && currentId) {
         setBusy('Renderizando…');
-        await exportCurrentSlide(project, currentId, logos);
+        out = await exportCurrentSlide(project, currentId, logos);
       } else {
         setBusy(`0 / ${project.slides.length}`);
-        await exportAllSlides(project, logos, (d, t) => setBusy(`${d} / ${t}`), slugify(project.name));
+        out = await exportAllSlides(project, logos, (d, t) => setBusy(`${d} / ${t}`), slugify(project.name));
       }
+      setFiles(out.map((f) => ({ ...f, url: URL.createObjectURL(f.blob) })));
       toast('Exportação concluída.');
-      setState({ exportOpen: false });
     } catch (e) {
       console.error(e);
       toast('Falha na exportação.');
@@ -32,6 +37,40 @@ export function ExportDialog() {
       setBusy(null);
     }
   };
+
+  if (files) {
+    return (
+      <Modal onClose={close} className="w-[min(920px,92vw)]">
+        <div className="p-6">
+          <div className="eyebrow">Arquivos gerados · 1080 × 1350 px</div>
+          <h2 className="mt-1 text-[20px] font-semibold tracking-tight">{files.length === 1 ? files[0].name : `${files.length} PNGs`}</h2>
+          <p className="mt-2 max-w-[62ch] text-[12px] leading-relaxed text-muted">
+            Confirme o download quando o navegador pedir. Você também pode baixar cada PNG individualmente abaixo, ou clicar com o botão direito na imagem e escolher
+            <b className="text-ink"> Salvar imagem como…</b> (sai em resolução total).
+          </p>
+          <div className="mt-5 grid grid-cols-[repeat(auto-fill,minmax(150px,1fr))] gap-4">
+            {files.map((f) => (
+              <figure key={f.name} className="m-0">
+                <img src={f.url} alt={f.name} className="w-full rounded-md ring-1 ring-line" />
+                <figcaption className="mt-1.5 flex items-center justify-between text-[11.5px]">
+                  <span className="font-semibold tabular-nums">{f.name}</span>
+                  <button onClick={() => void saveFile(f.blob, f.name)} className="text-brand hover:underline">
+                    Baixar
+                  </button>
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+          <div className="mt-6 flex justify-end gap-2">
+            <Button onClick={() => setFiles(null)}>Exportar de novo</Button>
+            <Button variant="primary" onClick={close}>
+              Concluir
+            </Button>
+          </div>
+        </div>
+      </Modal>
+    );
+  }
 
   return (
     <Modal onClose={close} className="w-[460px]">

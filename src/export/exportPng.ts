@@ -8,6 +8,7 @@ import { SlideStage } from '../editor/SlideStage';
 import type { RenderCtx } from '../editor/nodes';
 import type { Project, Slide } from '../types/carouselTypes';
 import { pad2 } from '../utils/id';
+import { saveFile } from '../utils/download';
 
 /**
  * PNG export.
@@ -60,33 +61,35 @@ export async function renderSlide(slide: Slide, rc: RenderCtx, pixelRatio = 1): 
 
 export const renderContext = (p: Project, logos: RenderCtx['logos']): RenderCtx => ({ palette: p.palette, assets: p.assets, logos });
 
-function download(blob: Blob, filename: string) {
-  const a = document.createElement('a');
-  a.href = URL.createObjectURL(blob);
-  a.download = filename;
-  document.body.appendChild(a);
-  a.click();
-  a.remove();
-  setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+
+export interface ExportedFile {
+  name: string;
+  blob: Blob;
 }
 
-export async function exportCurrentSlide(p: Project, slideId: string, logos: RenderCtx['logos']) {
+export async function exportCurrentSlide(p: Project, slideId: string, logos: RenderCtx['logos']): Promise<ExportedFile[]> {
   const idx = p.slides.findIndex((s) => s.id === slideId);
-  if (idx < 0) return;
+  if (idx < 0) return [];
   const blob = await renderSlide(p.slides[idx], renderContext(p, logos));
-  download(blob, `${pad2(idx + 1)}.png`);
+  const name = `${pad2(idx + 1)}.png`;
+  await saveFile(blob, name);
+  return [{ name, blob }];
 }
 
 export async function exportAllSlides(p: Project, logos: RenderCtx['logos'], onProgress?: (done: number, total: number) => void, zipName = 'carrossel') {
   const zip = new JSZip();
   const rc = renderContext(p, logos);
+  const files: ExportedFile[] = [];
   for (let i = 0; i < p.slides.length; i++) {
     const blob = await renderSlide(p.slides[i], rc);
-    zip.file(`${pad2(i + 1)}.png`, blob);
+    const name = `${pad2(i + 1)}.png`;
+    zip.file(name, blob);
+    files.push({ name, blob });
     onProgress?.(i + 1, p.slides.length);
   }
   const out = await zip.generateAsync({ type: 'blob' });
-  download(out, `${zipName}.zip`);
+  await saveFile(out, `${zipName}.zip`);
+  return files;
 }
 
 export async function makeThumbnail(p: Project, logos: RenderCtx['logos']): Promise<string | undefined> {

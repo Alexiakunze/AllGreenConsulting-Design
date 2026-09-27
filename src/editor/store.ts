@@ -18,6 +18,7 @@ import type {
 } from '../types/carouselTypes';
 import { deepClone, uid } from '../utils/id';
 import * as db from '../storage/db';
+import { saveFile } from '../utils/download';
 
 export type LeftTab = 'content' | 'slides' | 'brand' | 'elements' | 'export';
 export type CreationStyle = 'auto' | 'dark' | 'light';
@@ -754,11 +755,7 @@ export function exportProjectJSON() {
   const p = state.project;
   if (!p) return;
   const blob = new Blob([JSON.stringify({ format: 'all-green-carousel', version: 1, project: p }, null, 2)], { type: 'application/json' });
-  const a = document.createElement('a');
-  a.href = URL.createObjectURL(blob);
-  a.download = `${slugify(p.name)}.allgreen.json`;
-  a.click();
-  setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+  void saveFile(blob, `${slugify(p.name)}.allgreen.json`);
 }
 
 export async function importProjectJSON(file: File) {
