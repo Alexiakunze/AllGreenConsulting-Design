@@ -1,0 +1,100 @@
+@import 'tailwindcss';
+@import '@fontsource/space-grotesk/300.css';
+@import '@fontsource/space-grotesk/400.css';
+@import '@fontsource/space-grotesk/500.css';
+@import '@fontsource/space-grotesk/600.css';
+@import '@fontsource/space-grotesk/700.css';
+
+/* Editor interface (the carousel brand colors live in designTokens.ts) */
+:root {
+  --ui-bg: #f3f1ed;
+  --ui-panel: #ffffff;
+  --ui-panel-2: #faf9f7;
+  --ui-border: #e5e1da;
+  --ui-border-strong: #d4cfc6;
+  --ui-ink: #14201e;
+  --ui-muted: #6b7471;
+  --ui-faint: #9aa19e;
+  --ui-brand: #12403c;
+  --ui-brand-soft: #e3ebe9;
+  --ui-accent: #c04e01;
+  --ui-offwhite: #edeae6;
+  --ui-selection: #2f7cf6;
+  --ui-danger: #c2362b;
+}
+
+@theme {
+  --font-sans: 'Space Grotesk', 'Helvetica Neue', Arial, sans-serif;
+  --color-ui-bg: var(--ui-bg);
+  --color-panel: var(--ui-panel);
+  --color-panel-2: var(--ui-panel-2);
+  --color-line: var(--ui-border);
+  --color-line-strong: var(--ui-border-strong);
+  --color-ink: var(--ui-ink);
+  --color-muted: var(--ui-muted);
+  --color-faint: var(--ui-faint);
+  --color-brand: var(--ui-brand);
+  --color-brand-soft: var(--ui-brand-soft);
+  --color-accent: var(--ui-accent);
+  --color-offwhite: var(--ui-offwhite);
+  --color-selection: var(--ui-selection);
+  --color-danger: var(--ui-danger);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--ui-bg);
+  color: var(--ui-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+}
+
+.canvas-bg {
+  background-color: #e8e5df;
+  background-image: radial-gradient(rgba(20, 32, 30, 0.09) 1px, transparent 1px);
+  background-size: 18px 18px;
+}
+
+.scroll-thin::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.scroll-thin::-webkit-scrollbar-thumb {
+  background: rgba(20, 32, 30, 0.14);
+  border-radius: 8px;
+}
+
+input[type='range'] {
+  accent-color: var(--ui-brand);
+}
+
+input[type='color'] {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+}
+input[type='color']::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+input[type='color']::-webkit-color-swatch {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+}
+
+.eyebrow {
+  font-size: 10.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--ui-muted);
+}
