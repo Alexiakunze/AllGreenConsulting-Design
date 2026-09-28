@@ -106,7 +106,8 @@ node newsletter/newsletter.mjs newsletter/edicoes/26-09-21/All-Green-Newsletter-
 - `newsletter/Prompt-Newsletter-Semanal.md`: weekly instructions (what goes in,
   tone, exact `.md` structure). Only facts tagged **PODE AFIRMAR** go in; the SDR
   call lines become "O que isso significa para você".
-- `newsletter/edicoes/AA-MM-DD/`: one folder per week (`.md` source + generated `.html`).
+- `newsletter/pdf.mjs`: A4 PDF of an edition (`node newsletter/pdf.mjs <arquivo.html>`; `CHROME_PATH` to point at Chrome on a Mac).
+- `newsletter/edicoes/AA-MM-DD/`: one folder per week (`.md` source + generated `.html` and `.pdf`).
 - `newsletter/fonte/`: the internal research prompt (`Prompt-Noticias-da-Semana.md`),
   the latest monthly summary and the weekly reports, so the Monday routine can
   avoid repeating old news.
