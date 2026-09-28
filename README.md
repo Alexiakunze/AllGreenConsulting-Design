@@ -107,3 +107,6 @@ node newsletter/newsletter.mjs newsletter/edicoes/26-09-21/All-Green-Newsletter-
   tone, exact `.md` structure). Only facts tagged **PODE AFIRMAR** go in; the SDR
   call lines become "O que isso significa para você".
 - `newsletter/edicoes/AA-MM-DD/`: one folder per week (`.md` source + generated `.html`).
+- `newsletter/fonte/`: the internal research prompt (`Prompt-Noticias-da-Semana.md`),
+  the latest monthly summary and the weekly reports, so the Monday routine can
+  avoid repeating old news.
