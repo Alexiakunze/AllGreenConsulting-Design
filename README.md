@@ -91,3 +91,19 @@ src/
 - Labels: `Eyebrow:`, `Título:`, `Texto:`, `Número:`, `Fonte:`, `Autor:`, `CTA:`, `Data:`,
   `Nome:`, `Tag:`, `Antes:` / `Depois:` (or `Mito:` / `Verdade:`, `A:` / `B:`).
 - Lists: `- item`, `• item`, `1. item`. Quotes: `“…”` followed by `— Author`.
+
+## Weekly newsletter (All Green News)
+
+`newsletter/` turns the internal weekly **All Green News** report into an
+email newsletter for leads and clients, in the brand palette (600px table
+layout with inline styles, works in Gmail/Outlook/Apple Mail, responsive on mobile).
+
+```bash
+node newsletter/newsletter.mjs newsletter/edicoes/26-09-21/All-Green-Newsletter-26-09-21.md
+# optional: LOGO_URL=https://…/logo-negativo.png SITE_URL=https://allgreenconsulting.com
+```
+
+- `newsletter/Prompt-Newsletter-Semanal.md`: weekly instructions (what goes in,
+  tone, exact `.md` structure). Only facts tagged **PODE AFIRMAR** go in; the SDR
+  call lines become "O que isso significa para você".
+- `newsletter/edicoes/AA-MM-DD/`: one folder per week (`.md` source + generated `.html`).
