@@ -111,8 +111,8 @@ node newsletter/newsletter.mjs newsletter/edicoes/26-09-21/All-Green-Newsletter-
   over a thin orange rule, footer "All Green Consulting · Dúvidas? Fale com o seu Care Team"
   with page numbers, rounded green cover with the outline pattern, numbered sections,
   tip/alert boxes, green-header tables and step lists. `node newsletter/print.mjs <arquivo.md>`;
-  `CHROME_PATH` points at Chrome on a Mac. Put the official logo at
-  `newsletter/assets/logo-horizontal-verde.png` (until then a text wordmark is used).
+  `CHROME_PATH` points at Chrome on a Mac. The header logo is
+  `newsletter/assets/logo-horizontal-verde.png`.
 - `newsletter/edicoes/AA-MM-DD/`: one folder per week (`.md` source + generated `.html` and `.pdf`).
 - `newsletter/fonte/`: the internal research prompt (`Prompt-Noticias-da-Semana.md`),
   the latest monthly summary and the weekly reports, so the Monday routine can
