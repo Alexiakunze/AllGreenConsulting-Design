@@ -3,6 +3,7 @@
 // uso: node newsletter/newsletter.mjs entrada.md [saida.html]
 // Variáveis opcionais: LOGO_URL (PNG hospedado do logo negativo), SITE_URL.
 import { readFileSync, writeFileSync } from 'node:fs';
+import { parse } from './parse.mjs';
 
 const C = {
   primary: '#12403C',
@@ -13,6 +14,8 @@ const C = {
   muted: '#698480',
   text: '#1B2B29',
   white: '#FFFFFF',
+  alert: '#B3261E',
+  alertBg: '#FBEEEC',
 };
 const FONT = "'Space Grotesk', 'Helvetica Neue', Arial, sans-serif";
 
@@ -28,38 +31,6 @@ const inline = (s, linkColor = C.primary) =>
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
     .replace(/\[([^\]]+)\]\(([^)]+)\)/g, `<a href="$2" style="color:${linkColor};text-decoration:underline;">$1</a>`);
 
-// ---------- parse ----------
-function parse(md) {
-  const lines = md.replace(/\r/g, '').split('\n');
-  const doc = { title: '', subtitle: '', preheader: '', edition: '', intro: [], sections: [], cta: null, footer: '' };
-  const [title, subtitle = ''] = lines.shift().replace(/^#\s+/, '').split('|').map((s) => s.trim());
-  Object.assign(doc, { title, subtitle });
-
-  let cur = null;
-  for (const raw of lines) {
-    const line = raw.trim();
-    if (!line) continue;
-    let m;
-    if ((m = line.match(/^Preheader:\s*(.+)/))) doc.preheader = m[1];
-    else if ((m = line.match(/^Edição:\s*(.+)/))) doc.edition = m[1];
-    else if ((m = line.match(/^CTA:\s*(.+)/))) {
-      const [text, button, url] = m[1].split('|').map((s) => s.trim());
-      doc.cta = { text, button, url };
-    } else if ((m = line.match(/^Rodapé:\s*(.+)/))) doc.footer = m[1];
-    else if ((m = line.match(/^##\s+(.+)/))) {
-      cur = { heading: m[1], tag: '', list: false, blocks: [] };
-      doc.sections.push(cur);
-    } else if (!cur) doc.intro.push(line);
-    else if ((m = line.match(/^Tag:\s*(.+)/))) cur.tag = m[1];
-    else if (/^Tipo:\s*lista/.test(line)) cur.list = true;
-    else if ((m = line.match(/^[-•]\s+(.+)/))) cur.blocks.push({ kind: 'item', text: m[1] });
-    else if ((m = line.match(/^Fontes?:\s*(.+)/))) cur.blocks.push({ kind: 'sources', text: m[1] });
-    else if ((m = line.match(/^\*\*(.+?):\*\*\s*(.+)/))) cur.blocks.push({ kind: 'highlight', label: m[1], text: m[2] });
-    else cur.blocks.push({ kind: 'p', text: line });
-  }
-  return doc;
-}
-
 // ---------- render ----------
 const p = (html, style = '') =>
   `<p style="margin:0 0 16px;font-family:${FONT};font-size:16px;line-height:1.6;color:${C.text};${style}">${html}</p>`;
@@ -68,10 +39,12 @@ function renderBlock(b) {
   switch (b.kind) {
     case 'p':
       return p(inline(b.text));
-    case 'highlight':
+    case 'highlight': {
+      const alert = b.alert;
       return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:4px 0 16px;"><tr>
-<td style="background:${C.light};border-left:4px solid ${C.accent};padding:14px 18px;font-family:${FONT};font-size:15px;line-height:1.55;color:${C.primary};">
-<strong style="color:${C.accent};text-transform:uppercase;font-size:12px;letter-spacing:1px;">${esc(b.label)}</strong><br>${inline(b.text)}</td></tr></table>`;
+<td style="background:${alert ? C.alertBg : C.light};border-left:4px solid ${alert ? C.alert : C.accent};padding:14px 18px;font-family:${FONT};font-size:15px;line-height:1.55;color:${C.primary};">
+<strong style="color:${alert ? C.alert : C.accent};text-transform:uppercase;font-size:12px;letter-spacing:1px;">${esc(b.label)}</strong><br>${inline(b.text)}</td></tr></table>`;
+    }
     case 'sources':
       return p(`Fontes: ${inline(b.text, C.muted)}`, `font-size:12px;line-height:1.5;color:${C.muted};`);
     default:
@@ -107,9 +80,9 @@ function render(doc, { logoUrl = process.env.LOGO_URL, siteUrl = process.env.SIT
   const cta = doc.cta
     ? `<tr><td style="background:${C.primary};padding:36px 40px;text-align:center;">
 <p style="margin:0 0 20px;font-family:${FONT};font-size:20px;line-height:1.35;color:${C.light};font-weight:700;">${inline(doc.cta.text, C.light)}</p>
-<table role="presentation" cellpadding="0" cellspacing="0" align="center"><tr><td style="background:${C.accent};border-radius:999px;">
+${doc.cta.url ? `<table role="presentation" cellpadding="0" cellspacing="0" align="center"><tr><td style="background:${C.accent};border-radius:999px;">
 <a href="${esc(doc.cta.url)}" style="display:inline-block;padding:14px 32px;font-family:${FONT};font-size:15px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:${C.white};text-decoration:none;">${esc(doc.cta.button)}</a>
-</td></tr></table></td></tr>`
+</td></tr></table>` : doc.cta.button ? `<p style="margin:0;font-family:${FONT};font-size:15px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#F07A2B;">${esc(doc.cta.button)}</p>` : ''}</td></tr>`
     : '';
 
   return `<!doctype html>

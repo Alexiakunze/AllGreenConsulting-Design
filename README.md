@@ -94,8 +94,8 @@ src/
 
 ## Weekly newsletter (All Green News)
 
-`newsletter/` turns the internal weekly **All Green News** report into an
-email newsletter for leads and clients, in the brand palette (600px table
+`newsletter/` turns the internal weekly **All Green News** report into the
+client newsletter (All Letter's), as email, in the brand palette (600px table
 layout with inline styles, works in Gmail/Outlook/Apple Mail, responsive on mobile).
 
 ```bash
@@ -106,7 +106,13 @@ node newsletter/newsletter.mjs newsletter/edicoes/26-09-21/All-Green-Newsletter-
 - `newsletter/Prompt-Newsletter-Semanal.md`: weekly instructions (what goes in,
   tone, exact `.md` structure). Only facts tagged **PODE AFIRMAR** go in; the SDR
   call lines become "O que isso significa para você".
-- `newsletter/pdf.mjs`: A4 PDF of an edition (`node newsletter/pdf.mjs <arquivo.html>`; `CHROME_PATH` to point at Chrome on a Mac).
+- `newsletter/print.mjs`: A4 PDF of an edition in the **All Letter's** layout (the Canva
+  newsletter: green masthead with the outline pattern, flag banner, alternating stat
+  panels and text, orange closing band), following the brand print rules: Space Grotesk
+  only, body 10.5 pt / 1.5, `#133F38` / `#C4570F` (`#F07A2B` on green), tip and alert boxes,
+  table and step styles, footer "All Green Consulting · Dúvidas? Fale com o seu Care Team"
+  with page numbers. `node newsletter/print.mjs <arquivo.md>`; `CHROME_PATH` points at Chrome on a Mac.
+  Assets in `newsletter/assets/` (pattern and flag taken from the Canva file).
 - `newsletter/edicoes/AA-MM-DD/`: one folder per week (`.md` source + generated `.html` and `.pdf`).
 - `newsletter/fonte/`: the internal research prompt (`Prompt-Noticias-da-Semana.md`),
   the latest monthly summary and the weekly reports, so the Monday routine can
