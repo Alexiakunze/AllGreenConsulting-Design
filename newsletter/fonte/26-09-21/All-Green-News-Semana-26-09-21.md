@@ -44,15 +44,16 @@ Fontes: [Federal Register, 25/08](https://www.federalregister.gov/documents/2026
 
 Fontes: [Ellis, 22/09](https://www.ellis.com/resources/eb-2-india-cap-reached-fy-2026) · [Portner & Shure](http://www.portnerandshure.com/blog/2026/september/september-2026-visa-bulletin-why-employment-based-green-card-applicants-should-act-before-september-30/) · [Ogletree, 31/08](https://ogletree.com/insights-resources/blog-posts/september-2026-visa-bulletin-final-action-dates-unchanged-but-state-department-warns-of-potential-unavailability/)
 
-### 4. Dólar no menor patamar do ano
+### 4. Dólar segue abaixo do nível do início do ano
 
 | O que aconteceu | Data | Etiqueta |
 |---|---|---|
 | Dólar fechou a **~R$ 5,16** na quarta 24/09. O real acumula valorização de 5,4% em 2026. Selic em 13,75% desde 16/09. | 24/09 | PODE AFIRMAR (muda todo dia) |
+| Correção: o menor fechamento de 2026 foi **R$ 4,91 em 05/05** (mínima de R$ 4,90), o menor desde jan/2024. Em 08/09 fechou a R$ 5,086, queda de 7,28% no ano. R$ 5,16 **não** é o menor do ano. | 05/05 e 08/09 | PODE AFIRMAR |
 
-**Como usar na call:** "O investimento no processo é em dólar. Esta semana ele está no menor nível do ano. Cada centavo a menos no câmbio é desconto real no seu processo."
+**Como usar na call:** "O investimento no processo é em dólar. Ele segue abaixo do nível do início do ano. Cada centavo a menos no câmbio é desconto real no seu processo."
 
-Fontes: [Revista Fórum, 24/09](https://revistaforum.com.br/economia/preco-dolar-24-09-2026/) · [Serasa, set/2026](https://www.serasaexperian.com.br/conteudos/boletim-economico-de-setembro-2026/)
+Fontes: [Revista Fórum, 24/09](https://revistaforum.com.br/economia/preco-dolar-24-09-2026/) · [Agência Brasil, 05/05](https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/dolar-cai-r-491-e-fecha-no-menor-valor-em-27-meses) · [Agência Brasil, 08/09](https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/dolar-cai-r-508-e-atinge-menor-valor-em-um-mes) · [Serasa, set/2026](https://www.serasaexperian.com.br/conteudos/boletim-economico-de-setembro-2026/)
 
 ### 5. Tech: demissões sobem 17%, mas o corte é de generalista
 
@@ -108,7 +109,7 @@ Fontes: [Times Brasil/CNBC](https://timesbrasil.com.br/mundo/eua-ampliam-analise
 
 ### Frase da semana
 
-**Frase de SDR:** "Nesta semana a Índia esgotou a cota do EB-2, o boletim de outubro atrasou sem explicação, o governo tentou cobrar US$ 103 mil por H-1B pela segunda vez e o dólar bateu o menor nível do ano. O que não mudou: Brasil sem fila e o NIW sem depender de empregador. É a semana certa para protocolar."
+**Frase de SDR:** "Nesta semana a Índia esgotou a cota do EB-2, o boletim de outubro atrasou sem explicação, o governo tentou cobrar US$ 103 mil por H-1B pela segunda vez e o dólar segue abaixo do nível do início do ano. O que não mudou: Brasil sem fila e o NIW sem depender de empregador. É a semana certa para protocolar."
 
 ---
 

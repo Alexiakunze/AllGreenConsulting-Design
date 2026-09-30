@@ -26,25 +26,15 @@ Terminou em 24/09 o prazo de comentários de uma regra proposta pelo DHS que cri
 
 Fontes: [Federal Register, 25/08](https://www.federalregister.gov/documents/2026/08/25/2026-17324/fee-for-certain-h-1b-petitions) · [USCIS](https://www.uscis.gov/newsroom/news-releases/dhs-proposes-additional-h-1b-fee)
 
-## Dólar no menor nível do ano
+## Dólar segue abaixo do nível do início do ano
 Tag: Câmbio
-Destaque: R$ 5,16 | Fechamento do dólar em 24/09, o menor de 2026
+Destaque: R$ 4,91 | Menor fechamento de 2026, em 05/05
 
-Na quarta (24/09), o dólar fechou a cerca de R$ 5,16, o menor patamar de 2026. O real acumula valorização de 5,4% no ano. O câmbio muda todo dia, então vale acompanhar.
+O dólar continua mais barato do que no começo de 2026. O menor fechamento do ano foi em 05/05, a R$ 4,91 (na mínima do dia chegou a R$ 4,90), o menor valor desde janeiro de 2024. Em 08/09, a moeda fechou a R$ 5,09 e acumulava queda de 7,28% no ano. O câmbio muda todo dia, então vale acompanhar.
 
-**O que isso significa para você:** Boa parte dos custos da mudança, como taxas, moradia e escola, é em dólar. Um câmbio mais baixo é uma boa janela para planejar essas despesas.
+**O que isso significa para você:** Boa parte dos custos da mudança, como taxas, moradia e escola, é em dólar. Com o câmbio abaixo do início do ano, vale planejar essas despesas e acompanhar a cotação.
 
-Fontes: [Revista Fórum, 24/09](https://revistaforum.com.br/economia/preco-dolar-24-09-2026/)
-
-## Tecnologia: demissões sobem, mas a contratação em IA e cloud continua
-Tag: Tecnologia
-Destaque: 94.046 | Demissões em tech nos EUA de janeiro a agosto de 2026
-
-Segundo a Crunchbase, foram 94.046 demissões no setor de tecnologia nos EUA de janeiro a agosto, 16,8% a mais que em 2025. A mesma análise encontrou pouca evidência de que a IA esteja substituindo o trabalho dos demitidos: as empresas cortam em uma área e contratam em IA e cloud.
-
-**O que isso significa para você:** O mercado não está fechado, está seletivo. Quem chega com especialização em áreas de escassez continua sendo procurado.
-
-Fontes: [Crunchbase, 25/09](https://news.crunchbase.com/layoffs/2026-layoff-numbers-rise-ai-shift-orcl-meta-amzn/)
+Fontes: [Agência Brasil, 05/05](https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/dolar-cai-r-491-e-fecha-no-menor-valor-em-27-meses) · [Agência Brasil, 08/09](https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/dolar-cai-r-508-e-atinge-menor-valor-em-um-mes)
 
 ## Rápidas da semana
 Tipo: lista

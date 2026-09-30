@@ -30,7 +30,7 @@ Prezado(a) imigrante,
 Para cada uma das 4 ou 5 notícias:
 ## [Título curto que já diz a notícia]
 Tag: [Imigração | Vistos de trabalho | Câmbio | Engenharia | Agronomia | Saúde | Tecnologia | Economia | Brasil]
-Destaque: [número ou data curta, ex.: R$ 5,16] | [legenda de uma linha]
+Destaque: [número ou data curta, ex.: R$ 4,91] | [legenda de uma linha]
 [1 a 2 parágrafos com o fato]
 **O que isso significa para você:** [uma ou duas frases]   (ou **Atenção:** [..] quando for alerta)
 Fontes: [links markdown com data, separados por " · "]

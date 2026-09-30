@@ -111,7 +111,7 @@ Cada dado deste documento vem com uma etiqueta. Respeite a etiqueta na call.
 | **~4,6 milhões** de brasileiros vivem no exterior, +15% em dois anos. | PODE AFIRMAR | Itamaraty, via Exame 21/04/2026 |
 | Consultoria de imigração (jan-jun/2026, +3.000 consultas): 60% preferem EUA; 67% são famílias inteiras; 70% motivados por carreira; perfis mais comuns: tecnologia, IA, engenharia, saúde, finanças. | PODE AFIRMAR (fonte privada) | Bicalho, 13/07/2026 |
 | Vistos EB-1/EB-2 para brasileiros: 2.142 nos 8 primeiros meses de 2024 (+58% vs 2023); FY2024 teve recorde de 2.302 EB-2. Dado de FY2025 ainda não publicado. | PODE AFIRMAR | Estado de Minas, 25/11/2025 |
-| Dólar a **~R$ 5,16** (24/09/2026); real valorizou 5,4% no ano. Selic 13,75%. | PODE AFIRMAR (muda todo dia) | Revista Fórum; Serasa, set/2026 |
+| Dólar a **~R$ 5,16** (24/09/2026); real valorizou 5,4% no ano. Menor fechamento de 2026: **R$ 4,91 em 05/05** (mínima R$ 4,90). Selic 13,75%. | PODE AFIRMAR (muda todo dia) | Revista Fórum; Serasa, set/2026 |
 
 **Como usar na call:** "Quatro em cada dez brasileiros querem sair, e os EUA são o destino número um. O Brasil já é o terceiro país em pedidos de NIW. A concorrência pela mesma vaga é brasileira. E o dólar abaixo de R$ 5,20 barateia o investimento agora."
 
@@ -429,7 +429,7 @@ Mediana de todas as ocupações nos EUA: US$ 50.980. Converta pelo câmbio do di
 | Lead diz "vou tentar H-1B pela empresa" | "H-1B hoje é loteria que favorece quem já está nos EUA com mestrado americano. Quem está no Brasil caiu para um terço das seleções. E tem uma taxa de US$ 100 mil pairando até 2027." |
 | Lead diz "a aprovação caiu, é arriscado" | "Caiu para quem mandou petição genérica. Desde agosto o oficial pode negar sem pedir mais provas. Isso é ruim para quem tenta sozinho e bom para quem monta o caso completo." |
 | Lead diz "não sou gênio" | "O NIW não pede que você seja o melhor do mundo. Pede formação, experiência e um projeto que responda a uma necessidade documentada dos EUA. Sua área tem essa necessidade documentada pelo próprio governo." |
-| Lead fala do dólar | "O dólar está abaixo de R$ 5,20, o menor patamar do ano. O investimento no processo hoje é mais barato do que era em janeiro." |
+| Lead fala do dólar | "O dólar está abaixo do nível do início do ano. O investimento no processo hoje é mais barato do que era em janeiro." |
 | Lead da saúde pergunta sobre licença | "Green card e licença são trilhos diferentes. O green card resolve morar e trabalhar. A licença a gente orienta em paralelo, e 24 estados já têm caminho sem residência americana." |
 
 ---
