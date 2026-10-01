@@ -2,36 +2,60 @@
   {
     "arquivo": "post-1.png",
     "kicker": "Visa Bulletin · Outubro 2026",
-    "titulo": "O EB-2 do Brasil voltou a ter *fila*",
+    "titulo": "Para quem tem carreira, fila é *custo*",
     "dados": [
-      { "valor": "01/01/2025", "legenda": "Data de corte para *emitir* o green card" },
-      { "valor": "15/03/2026", "legenda": "Data de corte para *protocolar* o pedido" }
+      {
+        "valor": "01/01/2025",
+        "legenda": "Data de corte para *emitir* o green card"
+      },
+      {
+        "valor": "15/03/2026",
+        "legenda": "Data de corte para *protocolar* o pedido"
+      }
     ],
-    "fecho": "Sua data de prioridade não se perde.",
+    "fecho": "Sua data de prioridade não se perde. Ela começa quando você protocola.",
     "fonte": "Fonte: Departamento de Estado, 29/09/2026"
   },
   {
     "arquivo": "post-2.png",
     "kicker": "Visto H-1B",
-    "titulo": "Mais de *US$ 200 mil* por um visto que depende de patrão",
+    "titulo": "Esperar a empresa te patrocinar ficou *mais caro*",
     "dados": [
-      { "valor": "US$ 100.000", "legenda": "Cobrança por proclamação. Bloqueada na Justiça, renovada até 2027" },
-      { "valor": "US$ 103.265", "legenda": "Nova taxa proposta pelo DHS, além das atuais" }
+      {
+        "valor": "US$ 100.000",
+        "legenda": "Cobrança por proclamação. Bloqueada na Justiça, renovada até 2027"
+      },
+      {
+        "valor": "US$ 103.265",
+        "legenda": "Nova taxa proposta pelo DHS, além das atuais"
+      }
     ],
-    "fecho": "EB-2 NIW: sem patrocinador, sem sorteio.",
+    "fecho": "EB-2 NIW: o próprio profissional faz o pedido.",
     "fonte": "Fontes: Federal Register, USCIS, set/2026"
   },
   {
     "arquivo": "post-3.png",
     "kicker": "Mercado americano",
-    "titulo": "Falta gente nos EUA. Mas não *qualquer gente*.",
+    "titulo": "Seu currículo não é o *argumento*.",
     "dados": [
-      { "valor": "157 mil", "legenda": "*Engenharia:* falta prevista nas fábricas de chips até 2030" },
-      { "valor": "30%", "legenda": "*Saúde:* dos profissionais de cuidado direto são imigrantes" },
-      { "valor": "01/10", "legenda": "*Agronomia:* começam os cortes de água do Rio Colorado" },
-      { "valor": "Fed", "legenda": "*Economia:* qualificados \"difíceis de encontrar\"" }
+      {
+        "valor": "157 mil",
+        "legenda": "*Engenharia:* falta prevista nas fábricas de chips até 2030"
+      },
+      {
+        "valor": "30%",
+        "legenda": "*Saúde:* dos profissionais de cuidado direto são imigrantes"
+      },
+      {
+        "valor": "01/10",
+        "legenda": "*Agronomia:* começam os cortes de água do Rio Colorado"
+      },
+      {
+        "valor": "Fed",
+        "legenda": "*Economia:* qualificados \"difíceis de encontrar\""
+      }
     ],
-    "fecho": "",
+    "fecho": "O argumento é o problema que você resolve.",
     "fonte": "Fontes: TechTimes, KFF, KUNC, Fed, set/2026"
   }
 ]

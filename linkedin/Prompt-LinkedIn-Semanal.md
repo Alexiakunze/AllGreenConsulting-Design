@@ -8,6 +8,11 @@ SAÍDA
 - linkedin/AA-MM-DD/Atila-LinkedIn-AA-MM-DD.md (mesma estrutura da edição anterior: nota "Como foram pensados", depois Post 1, 2 e 3, cada um com imagem, texto, primeiro comentário com as fontes e avisos antes de postar).
 - linkedin/AA-MM-DD/imagens.json e as imagens: node linkedin/imagens.mjs linkedin/AA-MM-DD/imagens.json (1080 × 1350 px, uma por post).
 
+ICP (PARA QUEM ESCREVER)
+- Profissionais brasileiros de alta qualificação: engenheiros, médicos e profissionais de saúde, pesquisadores, especialistas em tecnologia, agrônomos e executivos, com pós-graduação ou carreira longa e resultados mensuráveis.
+- Responda às dúvidas deles: "meu perfil é suficiente?", "não quero depender de empresa me patrocinar", "não posso perder anos de carreira", "quero entender a regra antes de investir".
+- Fale de critério, risco, custo de esperar e decisão. Cite profissões pelo nome. Nada de tom de promessa, urgência falsa ou venda.
+
 REGRAS (State of LinkedIn Brasil 2026)
 - Post de executivo, em primeira pessoa, com opinião clara. Texto longo + uma imagem; não use artigo com link.
 - Sempre os mesmos 2 temas: a fila do green card (Visa Bulletin, data de prioridade, regras) e por que os EUA precisam de profissionais qualificados (engenharia, agronomia, saúde, tecnologia). Pode entrar câmbio/planejamento quando houver notícia.
