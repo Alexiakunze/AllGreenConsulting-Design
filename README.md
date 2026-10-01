@@ -117,3 +117,12 @@ node newsletter/newsletter.mjs newsletter/edicoes/26-09-21/All-Green-Newsletter-
 - `newsletter/fonte/`: the internal research prompt (`Prompt-Noticias-da-Semana.md`),
   the latest monthly summary and the weekly reports, so the Monday routine can
   avoid repeating old news.
+
+## LinkedIn posts (Atila Ghidoni)
+
+`linkedin/` holds the weekly LinkedIn posts for the CEO, written from the same weekly news.
+
+- `linkedin/Prompt-LinkedIn-Semanal.md`: rules (based on the State of LinkedIn Brasil 2026 report).
+- `linkedin/imagens.mjs`: renders one 1080 × 1350 image per post from `imagens.json`
+  (`node linkedin/imagens.mjs linkedin/AA-MM-DD/imagens.json`).
+- `linkedin/AA-MM-DD/`: the week's posts (`Atila-LinkedIn-AA-MM-DD.md`) and images.

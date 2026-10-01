@@ -1,0 +1,37 @@
+[
+  {
+    "arquivo": "post-1.png",
+    "kicker": "Visa Bulletin · Outubro 2026",
+    "titulo": "O EB-2 do Brasil voltou a ter *fila*",
+    "dados": [
+      { "valor": "01/01/2025", "legenda": "Data de corte para *emitir* o green card" },
+      { "valor": "15/03/2026", "legenda": "Data de corte para *protocolar* o pedido" }
+    ],
+    "fecho": "Sua data de prioridade não se perde.",
+    "fonte": "Fonte: Departamento de Estado, 29/09/2026"
+  },
+  {
+    "arquivo": "post-2.png",
+    "kicker": "Visto H-1B",
+    "titulo": "Mais de *US$ 200 mil* por um visto que depende de patrão",
+    "dados": [
+      { "valor": "US$ 100.000", "legenda": "Cobrança por proclamação. Bloqueada na Justiça, renovada até 2027" },
+      { "valor": "US$ 103.265", "legenda": "Nova taxa proposta pelo DHS, além das atuais" }
+    ],
+    "fecho": "EB-2 NIW: sem patrocinador, sem sorteio.",
+    "fonte": "Fontes: Federal Register, USCIS, set/2026"
+  },
+  {
+    "arquivo": "post-3.png",
+    "kicker": "Mercado americano",
+    "titulo": "Falta gente nos EUA. Mas não *qualquer gente*.",
+    "dados": [
+      { "valor": "157 mil", "legenda": "*Engenharia:* falta prevista nas fábricas de chips até 2030" },
+      { "valor": "30%", "legenda": "*Saúde:* dos profissionais de cuidado direto são imigrantes" },
+      { "valor": "01/10", "legenda": "*Agronomia:* começam os cortes de água do Rio Colorado" },
+      { "valor": "Fed", "legenda": "*Economia:* qualificados \"difíceis de encontrar\"" }
+    ],
+    "fecho": "",
+    "fonte": "Fontes: TechTimes, KFF, KUNC, Fed, set/2026"
+  }
+]
