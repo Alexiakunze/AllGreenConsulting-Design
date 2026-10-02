@@ -1,71 +1,43 @@
 # LinkedIn do Atila Ghidoni | Semana de 21 a 27 de setembro de 2026
 
-3 posts para o perfil do Atila Ghidoni, CEO da All Green Consulting, baseados nas notícias da semana (mesmas fontes da newsletter). Texto pronto para revisar e publicar.
+3 posts para o perfil do Atila Ghidoni, baseados nas notícias da semana (mesmas fontes da newsletter). Texto pronto para revisar e publicar.
 
-## Para quem escrevemos (ICP)
+## Persona e público
 
-Profissionais brasileiros de alta qualificação: engenheiros, médicos e profissionais de saúde, pesquisadores, especialistas em tecnologia, agrônomos e executivos, com pós-graduação ou carreira longa e resultados mensuráveis. Gente que já é referência no Brasil, avalia uma carreira nos EUA e decide com dado, não com promessa.
+- **Voz:** estrategista de pensamento crítico à frente de uma Global Advisory. Sofisticada, pragmática, analítica e levemente provocativa. Sem clichês de autoajuda corporativa; foco em verdades difíceis sobre economia, carreira e poder.
+- **Público:** empresários de alto patrimônio, profissionais liberais de elite e investidores que buscam segurança jurídica e internacionalização nos EUA. Detestam conteúdo superficial e buscam insights que protejam o seu legado.
+- **Lentes:** risco vs. retorno e proteção patrimonial; visão macro (Brasil vs. EUA, falhas estruturais, geopolítica); vocabulário como arbitragem geográfica, custo de oportunidade, jurisdição, capital social, compliance e ativos de liquidez global.
+- **Estrutura:** abre com uma afirmação contraintuitiva e fecha com uma provocação intelectual, nunca com venda direta. O cargo não aparece no texto; a autoridade vem do argumento.
 
-O que eles pensam e os posts respondem:
-- "Será que o meu perfil é suficiente?"
-- "Não quero depender de uma empresa me patrocinar."
-- "Não posso perder anos de carreira esperando."
-- "Quero entender a regra antes de investir."
+## Formato (State of LinkedIn Brasil 2026)
 
-Por isso os posts falam de critério, risco e decisão, citam profissões pelo nome e evitam tom de promessa ou de venda.
+- Post de executivo + uma imagem (`post-1.png`, `post-2.png`, `post-3.png`): é o formato que mais alcança decisores. Links das fontes no primeiro comentário.
+- Sempre os mesmos 2 eixos temáticos: a fila do green card como variável de risco e a demanda estrutural dos EUA por capital humano qualificado.
+- O estudo mostra alcance menor para texto 100% gerado por IA: Atila deve ajustar com a própria voz antes de postar.
 
-## Como foram pensados (State of LinkedIn Brasil 2026)
-
-- **Post de executivo, não de página.** Em 6 de 7 mercados analisados, o post do executivo alcança mais decisores que o da página da empresa.
-- **Texto + imagem.** Imagem é o formato que mais atrai decisores (5,6 por post). "Artigo ou link externo" fica bem atrás. Por isso são posts longos com uma imagem cada (`post-1.png`, `post-2.png`, `post-3.png`).
-- **Poucos temas, sempre os mesmos.** O algoritmo distribui por tema e premia quem é fácil de classificar. Os 3 posts giram em torno de 2 temas: **a fila do green card** e **por que os EUA precisam de profissionais qualificados**.
-- **Feito para salvar e comentar.** Salvar, comentar e o tempo de leitura pesam mais que curtida. Cada post tem uma parte "salvável" e termina com uma pergunta para o ICP.
-- **IA no preparo, não na publicação.** O estudo mostra alcance menor para texto 100% gerado por IA. Atila deve ajustar com a voz dele antes de postar.
-- **Estilo de referência (Alfredo Soares, G4):** frase curta, uma ideia por linha, contraste ("não é X, é Y"), opinião clara e fechamento com provocação.
-
-Sugestão de calendário: terça, quarta e quinta, um por dia. Links das fontes no primeiro comentário, não no texto.
+Sugestão de calendário: terça, quarta e quinta, um por dia.
 
 ---
 
-## Post 1: Para quem tem carreira, fila é custo
+## Post 1: O ativo que não se compra depois
 
 **Imagem:** post-1.png
 
-Se você tem pós-graduação ou uma carreira sólida e pensa em trabalhar nos EUA, esta semana mudou o seu cálculo.
+O ativo mais subestimado de um processo migratório não é o capital investido. É uma data.
 
-O EB-2 do Brasil voltou a ter fila.
+Na terça-feira (29/09), o Departamento de Estado publicou o Visa Bulletin de outubro, e o EB-2 para brasileiros deixou de ser "Current". A data de corte para a emissão do green card passou a ser 01/01/2025; para o protocolo do pedido, 15/03/2026. Escritórios americanos classificaram a retrogressão no primeiro mês do ano fiscal como "extremamente incomum".
 
-O EB-2 é o green card para quem tem mestrado ou doutorado, ou graduação com pelo menos 5 anos de experiência progressiva, ou habilidade excepcional.
+A leitura apressada é que a porta se estreitou. A leitura correta é outra: a fila acaba de ganhar preço.
 
-É a categoria de quem já é referência no que faz.
+No sistema americano, o lugar de cada um é definido pela data de prioridade, o registro do momento em que o pedido foi protocolado. Ela não se perde, não se negocia e não pode ser adquirida retroativamente. Nenhum volume de patrimônio compra o tempo que alguém deixou de registrar.
 
-Na terça (29/09), o Departamento de Estado publicou o Visa Bulletin de outubro:
+Em mercados emergentes, estamos acostumados a outro tipo de incerteza: a da regra. A norma muda, a interpretação muda, e o planejamento de longo prazo vira exercício de adivinhação. Nos EUA, a regra é pública e o boletim é publicado todo mês. O que oscila é a demanda. É um risco mensurável, e risco mensurável se administra.
 
-→ Data de corte para emitir o green card: 01/01/2025
-→ Data de corte para protocolar o pedido: 15/03/2026
-→ Até setembro, o Brasil não tinha fila nenhuma
+Por isso a pergunta relevante não é se o momento é bom. É qual o custo de oportunidade de adiar uma decisão de jurisdição enquanto a fila cresce.
 
-Escritórios de imigração americanos classificaram a retrogressão no primeiro mês do ano fiscal como "extremamente incomum".
+Quem trata residência como projeto a ser iniciado "quando o cenário estiver claro" costuma descobrir que clareza, nesse mercado, é justamente o que encarece a entrada.
 
-Para um profissional sênior, fila não é só espera.
-É custo.
-
-Cada ano na fila é um ano de salário em dólar que não entrou.
-Um ano a mais longe da pesquisa, do projeto ou do cargo que você quer.
-
-E aqui está o ponto que separa quem decide bem de quem decide tarde:
-
-o que define o seu lugar na fila é a data de prioridade.
-É a data em que o seu pedido é protocolado.
-Ela não se perde.
-
-Quem protocola hoje entra na fila hoje.
-Quem espera "a fila andar" entra depois de todo mundo que não esperou.
-
-Para quem tem o perfil, a pergunta deixou de ser "vale a pena?".
-Virou "quanto custa esperar mais um ano?".
-
-Quanto vale um ano da sua carreira?
+Se o seu patrimônio já está diversificado em mais de uma moeda, por que a sua jurisdição ainda depende de uma única?
 
 ---
 
@@ -73,55 +45,21 @@ Quanto vale um ano da sua carreira?
 
 ---
 
-## Post 2: Esperar a empresa te levar ficou mais caro
+## Post 2: Washington está precificando o talento
 
 **Imagem:** post-2.png
 
-Muito profissional brasileiro qualificado tem o mesmo plano para ir aos EUA:
+Os EUA não estão fechando as portas ao talento estrangeiro. Estão colocando um preço nele, e cobrando de quem contrata.
 
-"Vou esperar uma empresa me contratar e patrocinar o visto."
+Os fatos de setembro: a cobrança de US$ 100 mil por visto H-1B, criada por proclamação presidencial, está bloqueada na Justiça, mas foi renovada em 18/09 até setembro de 2027. Em paralelo, o DHS propôs uma nova taxa de US$ 103.265 por petição, cumulativa com as demais; o prazo de comentários públicos terminou em 24/09. Se ambas prevalecerem, o custo de patrocinar um único profissional ultrapassa US$ 200 mil. Hospitais pediram isenção para a área da saúde e, até agora, não a obtiveram.
 
-Esse plano ficou mais caro. Muito mais caro.
+A engrenagem por trás disso não é apenas política migratória. É a substituição de volume por seletividade. Quando o custo de entrada sobe dessa forma, o empregador americano passa a patrocinar menos, mais tarde e com critério mais estreito.
 
-Para a empresa.
+Para quem planeja uma vida nos EUA a partir de uma oferta de trabalho, isso tem um nome conhecido em finanças: risco de contraparte. O direito de residir passa a depender da decisão orçamentária de um único terceiro, sujeita a sorteio e a uma regulação em disputa judicial.
 
-O H-1B, o visto de trabalho patrocinado pelo empregador, virou alvo do governo americano:
+Existe uma via estruturalmente diferente. No EB-2 NIW, o próprio profissional figura como peticionário. Não há empregador patrocinador nem sorteio. O ônus é outro, e não é pequeno: demonstrar que o trabalho tem mérito substancial e importância nacional para os EUA. Mas é um ônus que depende do histórico e do capital intelectual do requerente, não da agenda de contratação de uma empresa.
 
-→ Por proclamação presidencial, foi criada uma cobrança de US$ 100 mil por visto. A Justiça bloqueou.
-→ Em 18/09, a Casa Branca renovou a proclamação até setembro de 2027.
-→ O DHS propôs mais uma taxa: US$ 103.265 por petição, além de todas as outras. O prazo de comentários terminou em 24/09.
-
-Se as duas valerem, são mais de US$ 200 mil por profissional.
-
-Hospitais americanos pediram isenção para a saúde. Até agora, não conseguiram.
-
-Agora se coloca no lugar do diretor que aprova a contratação.
-
-Ele paga US$ 200 mil a mais, e ainda corre o risco de você perder o sorteio do visto.
-
-Quantos profissionais ele vai patrocinar por ano?
-
-Poucos. E vai escolher a dedo.
-
-Enquanto isso, existe um caminho em que o próprio profissional faz o pedido.
-
-O EB-2 NIW.
-Sem empregador.
-Sem sorteio.
-Sem a taxa do H-1B.
-
-Não é mais fácil.
-Você precisa provar que o seu trabalho tem mérito e importância nacional para os EUA.
-
-Mas é um caminho que depende do seu histórico, não da agenda de contratação de uma empresa.
-
-Para engenheiro, médico, pesquisador e especialista em tecnologia, a ordem pode se inverter:
-
-primeiro o green card, depois a vaga.
-
-E com green card, você negocia a vaga de outro lugar.
-
-Você esperaria uma empresa te patrocinar ou tomaria a frente do processo?
+Investidores sofisticados não concentram patrimônio em uma única contraparte. Por que tantos profissionais de alto nível aceitam concentrar nela o próprio direito de residência?
 
 ---
 
@@ -131,48 +69,24 @@ Você esperaria uma empresa te patrocinar ou tomaria a frente do processo?
 
 ---
 
-## Post 3: Seu currículo não é o argumento
+## Post 3: A arbitragem geográfica do capital humano
 
 **Imagem:** post-3.png
 
-O erro mais comum de profissional brasileiro de alto nível que quer o green card:
+Competência não é um ativo de liquidez global. Ela só ganha liquidez na jurisdição que sabe precificá-la.
 
-achar que o currículo fala por si.
+Os dados das últimas semanas mostram onde esse preço está se formando. As fábricas de semicondutores americanas podem ter um déficit de 127 a 157 mil trabalhadores até 2030. Imigrantes já respondem por 30% dos profissionais de cuidado direto, e há casas de repouso fechando alas por falta de pessoal. Desde 01/10, Arizona, Califórnia e Nevada operam com cortes no uso da água do Rio Colorado, o que transforma eficiência agronômica em questão econômica. E o Beige Book do Federal Reserve descreve profissionais qualificados como "difíceis de encontrar".
 
-Não fala.
+Não se trata de falta de mão de obra em geral. Trata-se de escassez estrutural de capital humano específico: engenharia, saúde, agronomia, tecnologia e segurança cibernética.
 
-O governo americano não pergunta se você é bom.
-Pergunta se o seu trabalho resolve um problema que os EUA têm.
+É aqui que a comparação entre sistemas se torna desconfortável. Mercados emergentes formam profissionais de alto nível e, com frequência, os remuneram abaixo da sua produtividade, em uma moeda volátil e sob um ambiente regulatório instável. O sistema americano, com todas as suas imperfeições, publica onde estão as suas carências e mantém uma via legal para quem consegue demonstrar que pode supri-las.
 
-E nesta semana, os próprios EUA disseram quais são alguns desses problemas:
+O EB-2 NIW funciona exatamente nesse ponto. O critério não é a extensão do currículo. É a demonstração de que o trabalho do requerente tem mérito substancial e importância nacional para os EUA. Experiência é evidência; o argumento é o problema que se resolve.
 
-→ Engenharia: as fábricas de chips podem ter falta de 127 a 157 mil trabalhadores até 2030.
-→ Saúde: imigrantes são 30% dos profissionais de cuidado direto. Asilos estão fechando alas por falta de gente.
-→ Agronomia: a partir de hoje (01/10), Arizona, Califórnia e Nevada passam a ter cortes na água do Rio Colorado.
-→ Economia: o Fed descreve profissionais de ofícios qualificados como "difíceis de encontrar".
+A arbitragem geográfica sempre foi entendida como uma estratégia de capital financeiro. Talvez a decisão mais subestimada de uma carreira seja aplicá-la ao capital intelectual.
 
-Se você é engenheiro de semicondutores ou de energia, médico, enfermeiro, agrônomo que trabalha com irrigação ou especialista em cibersegurança:
-
-o problema já está nos jornais americanos.
-Falta você mostrar que é parte da solução.
-
-No EB-2 NIW, o oficial de imigração faz três perguntas. Salva este post:
-
-1. O seu trabalho tem mérito e importância nacional para os EUA?
-2. Você está bem posicionado para levar esse trabalho adiante?
-3. Faz sentido para os EUA dispensar a exigência de uma oferta de emprego no seu caso?
-
-Repara que nenhuma delas é "quantos anos de experiência você tem?".
-
-Experiência é prova.
-Não é o argumento.
-
-O argumento é o problema que você resolve.
-
-Que problema dos EUA o seu trabalho resolve?
+Em qual jurisdição o seu conhecimento é hoje subprecificado?
 
 ---
 
-**Primeiro comentário (fontes):** Chips: techtimes.com/articles/327782/20260920/us-chip-fabs-face-157000-worker-shortfall-ai-labs-drain-same-talent-pool.htm · Cuidadores: wisconsinwatch.org/2026/09/wisconsin-caregiver-shortage-federal-immigration-policy-home-health-nursing-workers/ · Rio Colorado: kunc.org/regional-news/2026-08-24/colorado-is-spared-from-mandatory-cuts-as-feds-finalize-colorado-river-rules-for-next-two-years · Beige Book: minneapolisfed.org/beige-book-reports/2026/2026-09-su · Critérios do NIW (Matter of Dhanasar): uscis.gov/policy-manual/volume-6-part-f-chapter-5
-
-**Ajuste de data:** o Post 3 fala "a partir de hoje (01/10)". Se for publicado em outro dia, troque por "desde 01/10".
+**Primeiro comentário (fontes):** Semicondutores: techtimes.com/articles/327782/20260920/us-chip-fabs-face-157000-worker-shortfall-ai-labs-drain-same-talent-pool.htm · Cuidadores: wisconsinwatch.org/2026/09/wisconsin-caregiver-shortage-federal-immigration-policy-home-health-nursing-workers/ · Rio Colorado: kunc.org/regional-news/2026-08-24/colorado-is-spared-from-mandatory-cuts-as-feds-finalize-colorado-river-rules-for-next-two-years · Beige Book: minneapolisfed.org/beige-book-reports/2026/2026-09-su · Critérios do NIW (Matter of Dhanasar): uscis.gov/policy-manual/volume-6-part-f-chapter-5

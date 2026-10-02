@@ -19,7 +19,7 @@ const C = {
   beige: '#E8DCC8',
   greenGray: '#A9C2BC',
 };
-const AUTOR = process.env.AUTOR || 'Atila Ghidoni · CEO, All Green Consulting';
+const AUTOR = process.env.AUTOR || 'Atila Ghidoni · All Green Consulting';
 
 const input = process.argv[2];
 if (!input) {

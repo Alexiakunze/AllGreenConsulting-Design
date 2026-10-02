@@ -2,7 +2,7 @@
   {
     "arquivo": "post-1.png",
     "kicker": "Visa Bulletin · Outubro 2026",
-    "titulo": "Para quem tem carreira, fila é *custo*",
+    "titulo": "O ativo que não se compra depois: a *data*",
     "dados": [
       {
         "valor": "01/01/2025",
@@ -13,13 +13,13 @@
         "legenda": "Data de corte para *protocolar* o pedido"
       }
     ],
-    "fecho": "Sua data de prioridade não se perde. Ela começa quando você protocola.",
+    "fecho": "A regra é pública. O que oscila é a fila.",
     "fonte": "Fonte: Departamento de Estado, 29/09/2026"
   },
   {
     "arquivo": "post-2.png",
     "kicker": "Visto H-1B",
-    "titulo": "Esperar a empresa te patrocinar ficou *mais caro*",
+    "titulo": "Washington está *precificando* o talento",
     "dados": [
       {
         "valor": "US$ 100.000",
@@ -30,13 +30,13 @@
         "legenda": "Nova taxa proposta pelo DHS, além das atuais"
       }
     ],
-    "fecho": "EB-2 NIW: o próprio profissional faz o pedido.",
+    "fecho": "Residência atrelada a um empregador é risco de contraparte.",
     "fonte": "Fontes: Federal Register, USCIS, set/2026"
   },
   {
     "arquivo": "post-3.png",
-    "kicker": "Mercado americano",
-    "titulo": "Seu currículo não é o *argumento*.",
+    "kicker": "Capital humano",
+    "titulo": "A arbitragem geográfica do *capital intelectual*",
     "dados": [
       {
         "valor": "157 mil",
@@ -48,14 +48,14 @@
       },
       {
         "valor": "01/10",
-        "legenda": "*Agronomia:* começam os cortes de água do Rio Colorado"
+        "legenda": "*Agronomia:* cortes de água do Rio Colorado em vigor"
       },
       {
         "valor": "Fed",
         "legenda": "*Economia:* qualificados \"difíceis de encontrar\""
       }
     ],
-    "fecho": "O argumento é o problema que você resolve.",
+    "fecho": "Competência só tem liquidez onde é precificada.",
     "fonte": "Fontes: TechTimes, KFF, KUNC, Fed, set/2026"
   }
 ]
