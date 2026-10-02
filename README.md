@@ -126,3 +126,10 @@ node newsletter/newsletter.mjs newsletter/edicoes/26-09-21/All-Green-Newsletter-
 - `linkedin/imagens.mjs`: renders one 1080 × 1350 image per post from `imagens.json`
   (`node linkedin/imagens.mjs linkedin/AA-MM-DD/imagens.json`).
 - `linkedin/AA-MM-DD/`: the week's posts (`Atila-LinkedIn-AA-MM-DD.md`) and images.
+
+## Blog posts (SEO)
+
+`blog/AA-MM-DD/` holds SEO articles written from the week's news. Each file has front
+matter with the SEO title (≤ 60 characters), meta description (≤ 155), slug and target
+keywords, followed by the article (H1, H2 sections, table, FAQ, sources and suggested
+internal links).
