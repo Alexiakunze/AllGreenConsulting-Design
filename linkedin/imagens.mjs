@@ -39,7 +39,7 @@ url(${dataUri(`${fontDir}/space-grotesk-latin-ext-${w}-normal.woff2`, 'font/woff
   )
   .join('\n');
 const ESTAMPA = dataUri(`${HERE}/../newsletter/assets/estampa-outline-branca.png`, 'image/png');
-const LOGO = dataUri(`${HERE}/assets/logo-horizontal-branca.png`, 'image/png');
+const LOGO = dataUri(`${HERE}/assets/logo-horizontal-offwhite.png`, 'image/png');
 
 const esc = (s = '') => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const kw = (s) => esc(s).replace(/\*(.+?)\*/g, '<em>$1</em>');
@@ -48,7 +48,7 @@ const page = (it) => `<!doctype html><html><head><meta charset="utf-8"><style>
 ${fontFaces}
 *{box-sizing:border-box;margin:0;padding:0}
 body{width:1080px;height:1350px;font-family:'Space Grotesk',sans-serif;background:${C.green};color:#fff;position:relative;overflow:hidden}
-body::before{content:'';position:absolute;inset:0;background:url(${ESTAMPA}) 0 0/420px auto repeat;opacity:.10}
+body::before{content:'';position:absolute;inset:0;background:url(${ESTAMPA}) 0 0/1100px auto repeat;opacity:.10}
 .wrap{position:relative;height:100%;padding:84px 88px 72px;display:flex;flex-direction:column}
 .logo{height:62px;width:auto;align-self:flex-start}
 .kicker{margin-top:auto;display:flex;align-items:center;gap:22px;font-size:26px;letter-spacing:5px;text-transform:uppercase;color:${C.sand};font-weight:600}

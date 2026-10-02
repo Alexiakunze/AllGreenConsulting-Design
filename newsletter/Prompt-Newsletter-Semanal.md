@@ -25,9 +25,9 @@ Edição: AA-MM-DD
 
 Prezado(a) imigrante,
 
-[Um parágrafo curto de abertura]
+[Abertura de no máximo 2 frases]
 
-Para cada uma das 4 ou 5 notícias:
+Para cada uma das 3 notícias (no máximo 3; parágrafo de até 3 frases, caixa de até 2 frases, no máximo 2 fontes):
 ## [Título curto que já diz a notícia]
 Tag: [Imigração | Vistos de trabalho | Câmbio | Engenharia | Agronomia | Saúde | Tecnologia | Economia | Brasil]
 Destaque: [número ou data curta, ex.: R$ 4,91] | [legenda de uma linha]
@@ -37,15 +37,15 @@ Fontes: [links markdown com data, separados por " · "]
 
 ## Rápidas da semana
 Tipo: lista
-- **[Setor]:** [notícia em uma linha]. [Fonte, data](link)   (uma para engenharia, agronomia, saúde e tecnologia)
+- **[Setor]:** [notícia em uma linha curta]. [Fonte, data](link)   (exatamente 4: engenharia, agronomia, saúde e tecnologia)
 
 ## Fique de olho nas próximas semanas
 Tipo: lista
-- **[Evento]:** [o que muda]
+- **[Evento]:** [o que muda]   (no máximo 2 itens)
 
 CTA: [pergunta de fechamento] | Fale com o seu Care Team
 Rodapé: Este conteúdo é informativo e não substitui a análise individual do seu caso. Informações atualizadas em [dd/mm/aaaa].
 
 FINALIZAÇÃO
-1. Gere o HTML e o PDF. Abra os dois e confira: capa, destaques, caixas, tabela inteira na página, rodapé com número de página. O PDF deve caber em 3 páginas; se passar, enxugue o texto, não a fonte.
+1. Gere o HTML e o PDF. Abra os dois e confira: capa, destaques, caixas, tabela inteira na página, rodapé com número de página. O PDF tem no máximo 2 páginas A4. Se passar, enxugue o texto (nunca a fonte nem as margens).
 2. Cole o HTML na ferramenta de e-mail (ou importe o arquivo) e envie um teste antes do disparo.
