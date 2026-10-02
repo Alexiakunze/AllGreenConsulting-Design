@@ -132,4 +132,5 @@ node newsletter/newsletter.mjs newsletter/edicoes/26-09-21/All-Green-Newsletter-
 `blog/AA-MM-DD/` holds SEO articles written from the week's news. Each file has front
 matter with the SEO title (≤ 60 characters), meta description (≤ 155), slug and target
 keywords, followed by the article (H1, H2 sections, table, FAQ, sources and suggested
-internal links).
+internal links). `node blog/pdf.mjs blog/AA-MM-DD/artigo.md` renders an article as an A4
+PDF on the All Green letterhead.
