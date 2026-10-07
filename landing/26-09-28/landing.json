@@ -1,0 +1,66 @@
+{
+  "semana": "Semana de 28/09 a 04/10/2026",
+  "cta_url": "https://allgreenconsulting.com",
+  "cta_texto": "Solicitar análise de perfil",
+  "hero": {
+    "kicker": "All Green News · Semana de 28/09 a 04/10/2026",
+    "titulo": "A fila do EB-2 voltou. A demanda por *talento* não foi embora.",
+    "subtitulo": "O que mudou nesta semana para profissionais de alta qualificação que planejam a residência permanente nos EUA, com dados verificados e fontes.",
+    "dados": [
+      { "valor": "01/01/2025", "legenda": "Nova data de corte do EB-2 para o Brasil" },
+      { "valor": "18 mil", "legenda": "Engenheiros em falta por ano nos EUA" },
+      { "valor": "9%", "legenda": "Dos engenheiros estrangeiros formados nos EUA que obtiveram H-1B" }
+    ]
+  },
+  "noticias": [
+    {
+      "tag": "Imigração",
+      "titulo": "O EB-2 do Brasil voltou a ter data de corte",
+      "texto": "O Visa Bulletin publicado em 29/09 tirou o EB-2 \"Rest of World\" da situação \"Current\". A data de corte para emissão do green card passou a ser 01/01/2025 e a data para protocolar o pedido final, 15/03/2026. Em outubro, o USCIS aceita o I-485 pela tabela de protocolo.",
+      "leitura": "A fila não fecha a porta: ela dá preço ao tempo. O lugar de cada profissional é definido pela data de prioridade, registrada no protocolo, e ela não pode ser obtida retroativamente.",
+      "fonte": "[Fragomen, 29/09](https://www.fragomen.com/insights/united-states-october-2026-visa-bulletin-significant-advancements-for-china-while-worldwide-eb-2-and-eb-3-retrogress-uscis-to-honor-dates-for-filing.html) · [Departamento de Estado](https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html)"
+    },
+    {
+      "tag": "Engenharia",
+      "titulo": "Os EUA formam engenheiros estrangeiros e não conseguem retê-los",
+      "texto": "Estudo do ACEC Research Institute divulgado em 30/09 aponta um déficit anual de 18 mil engenheiros nos EUA. Dos 40.606 estrangeiros que se formaram em engenharia no país em 2022, cerca de 3.825 (9%) obtiveram o visto H-1B. As formaturas em engenharia caíram mais de 10 mil desde o pico de 2019.",
+      "leitura": "O gargalo não é a falta de talento, é o canal de entrada. Um visto que depende de empregador e de sorteio absorve uma fração pequena de quem já está qualificado.",
+      "fonte": "[ACEC Research Institute, 30/09](https://engineeringinc.acec.org/blog/5-numbers-that-explain-americas-engineering-shortage/)"
+    },
+    {
+      "tag": "Câmbio",
+      "titulo": "Dólar fecha setembro estável, a R$ 5,17",
+      "texto": "A moeda americana terminou setembro a R$ 5,17, praticamente estável no mês. O menor fechamento de 2026 foi em 05/05, a R$ 4,91.",
+      "leitura": "Para quem planeja custos em dólar, como taxas, moradia e educação, o câmbio segue abaixo do início do ano. Planejamento cambial é parte da decisão de jurisdição.",
+      "fonte": "[InfoMoney, 30/09](https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-30092026/) · [Agência Brasil, 05/05](https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/dolar-cai-r-491-e-fecha-no-menor-valor-em-27-meses)"
+    }
+  ],
+  "contexto": [
+    { "rotulo": "H-1B", "texto": "A taxa de US$ 103.265 por petição segue como regra proposta; ainda não há versão final." },
+    { "rotulo": "Saúde", "texto": "A HRSA projeta falta de 124.180 médicos nos EUA em 2027, mais grave fora das grandes cidades." },
+    { "rotulo": "Semicondutores", "texto": "Até 157 mil vagas podem ficar sem preencher até 2030 (projeção do setor)." }
+  ],
+  "niw": {
+    "titulo": "O caminho que não depende de empregador",
+    "texto": "No EB-2 NIW (National Interest Waiver), o próprio profissional é o peticionário. Não há empresa patrocinadora nem sorteio. O USCIS avalia três critérios, definidos no caso Matter of Dhanasar:",
+    "criterios": [
+      "O trabalho proposto tem mérito substancial e importância nacional para os EUA.",
+      "O profissional está bem posicionado para levar esse trabalho adiante.",
+      "No conjunto, é benéfico para os EUA dispensar a exigência de oferta de emprego."
+    ]
+  },
+  "perfil": {
+    "titulo": "Quem costuma se qualificar ao EB-2",
+    "itens": [
+      "Mestrado ou doutorado na área de atuação",
+      "Graduação com pelo menos 5 anos de experiência progressiva",
+      "Habilidade excepcional comprovada por resultados, reconhecimento ou remuneração",
+      "Atuação em áreas de interesse dos EUA: engenharia, saúde, agronomia, tecnologia, pesquisa"
+    ]
+  },
+  "fechamento": {
+    "titulo": "O seu perfil se encaixa no EB-2 NIW?",
+    "texto": "Uma análise individual mostra o que o seu histórico já demonstra e o que precisa ser construído antes do protocolo."
+  },
+  "aviso": "Conteúdo informativo; não substitui a análise individual do seu caso. Não há garantia de aprovação nem de prazo. Informações atualizadas em 07/10/2026."
+}

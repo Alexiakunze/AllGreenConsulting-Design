@@ -134,3 +134,11 @@ matter with the SEO title (≤ 60 characters), meta description (≤ 155), slug 
 keywords, followed by the article (H1, H2 sections, table, FAQ, sources and suggested
 internal links). `node blog/pdf.mjs blog/AA-MM-DD/artigo.md` renders an article as an A4
 PDF on the All Green letterhead.
+
+## Weekly landing page
+
+`landing/AA-MM-DD/` holds the week's research (`pesquisa.md`, every fact with date, source and
+label) and the landing page built from it. Edit `landing.json` and run
+`node landing/landing.mjs landing/AA-MM-DD/landing.json` to get `index.html` (self-contained,
+responsive, brand fonts/colors/logo/pattern embedded) and `landing.pdf` (the whole page at
+desktop width, for review). `cta_url` sets where the buttons point.
