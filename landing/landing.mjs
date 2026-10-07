@@ -1,8 +1,7 @@
 #!/usr/bin/env node
-// Gera a landing page semanal no padrão da folha timbrada All Green (o mesmo da newsletter):
-// index.html (página web) e landing.pdf (A4, cabeçalho com logo, rodapé com página).
+// Gera a landing semanal em PDF (A4) no padrão da folha timbrada All Green, o mesmo da newsletter.
 // uso: node landing/landing.mjs landing/AA-MM-DD/landing.json
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, rmSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createRequire } from 'node:module';
@@ -97,7 +96,6 @@ const fechamento = `<div class="box keep cta"><span class="lbl">${esc(d.fechamen
 <a class="btn" href="${esc(d.cta_url)}">${esc(d.cta_texto)}</a></div>`;
 
 const html = `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>All Green News | ${esc(d.semana)}</title>
 <meta name="description" content="${esc(d.hero.subtitulo)}">
 <style>
@@ -109,10 +107,6 @@ body{font-family:'Space Grotesk',sans-serif;font-size:10.5pt;line-height:1.5;col
 a{color:inherit}
 p{margin:0 0 2.5mm}
 .page{max-width:174mm;margin:0 auto}
-.screen-head{display:flex;align-items:flex-end;justify-content:space-between;gap:6mm;padding:10mm 0 2.5mm;margin-bottom:6mm;border-bottom:1.2px solid ${C.orange}}
-.screen-head img{height:9mm;width:auto;display:block}
-.screen-head span{font-size:7.5pt;letter-spacing:1.5px;text-transform:uppercase;color:${C.brown}}
-.screen-foot{display:flex;justify-content:space-between;margin:8mm 0 10mm;padding-top:2mm;border-top:1px solid ${C.beige};font-size:7.5pt;color:${C.text2}}
 .cover{position:relative;overflow:hidden;background:${C.green};border-radius:4mm;padding:7mm 10mm 6mm;margin-bottom:5mm}
 .cover::before{content:'';position:absolute;inset:0;background:url(${ESTAMPA}) 0 0/150mm auto repeat;opacity:.16}
 .cover>*{position:relative}
@@ -145,11 +139,7 @@ td:first-child{color:${C.green};font-weight:600;white-space:nowrap}
 .note{font-size:8.5pt;color:${C.text2}}
 .cta .btn{display:table;margin-top:3mm;background:${C.orange};color:#fff;text-decoration:none;font-weight:600;font-size:9.5pt;letter-spacing:.5px;padding:2.2mm 5mm;border-radius:999px}
 .legal{font-size:8.5pt;color:${C.text2};margin-top:2mm}
-@media screen{body{font-size:16px}.page{padding:0 20px;max-width:760px}h1{font-size:40px}}
-@media screen and (max-width:600px){h1{font-size:30px}td:first-child{white-space:normal}}
-@media print{.screen-head,.screen-foot{display:none}}
 </style></head><body><div class="page">
-<div class="screen-head"><img src="${LOGO}" alt="All Green Consulting"><span>${esc(DOC_NAME)}</span></div>
 <div class="cover">
   <div class="support"><i></i>EB-2 NIW · All Green News</div>
   <h1>${inline(d.hero.titulo)}</h1>
@@ -163,12 +153,10 @@ ${niw}
 ${perfil}
 ${fechamento}
 <p class="legal">${esc(d.aviso)}</p>
-<div class="screen-foot"><span>All Green Consulting · Dúvidas? Fale com o seu Care Team</span></div>
 </div></body></html>`;
 
-const htmlPath = `${dir}/index.html`;
+const htmlPath = `${dir}/.landing.tmp.html`;
 writeFileSync(htmlPath, html);
-console.log(`HTML: ${htmlPath}`);
 
 const fontFace = `<style>${font('SG', [400])}</style>`;
 const header = `${fontFace}<div style="width:100%;margin:8mm 18mm 0;padding-bottom:2.5mm;border-bottom:1.2px solid ${C.orange};display:flex;align-items:flex-end;justify-content:space-between;gap:6mm;-webkit-print-color-adjust:exact">
@@ -183,4 +171,5 @@ await page.evaluate(() => document.fonts.ready);
 const pdfPath = `${dir}/landing.pdf`;
 await page.pdf({ path: pdfPath, preferCSSPageSize: true, printBackground: true, displayHeaderFooter: true, headerTemplate: header, footerTemplate: footer });
 await browser.close();
+rmSync(htmlPath);
 console.log(`PDF: ${pdfPath}`);

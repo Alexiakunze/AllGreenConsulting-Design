@@ -139,7 +139,7 @@ PDF on the All Green letterhead.
 
 `landing/AA-MM-DD/` holds the week's research (`pesquisa.md`, every fact with date, source and
 label) and the landing page built from it. Edit `landing.json` and run
-`node landing/landing.mjs landing/AA-MM-DD/landing.json` to get `index.html` (self-contained web
-page) and `landing.pdf` (A4). Both follow the same letterhead design as the newsletter (logo
+`node landing/landing.mjs landing/AA-MM-DD/landing.json` to get `landing.pdf` (A4; the landing is
+delivered as a PDF only). It follows the same letterhead design as the newsletter (logo
 header with orange rule, rounded green cover with the pattern, numbered sections, sand boxes,
 green-header tables, steps, checklist, page-numbered footer). `cta_url` sets where the button points.
