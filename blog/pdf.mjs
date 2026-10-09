@@ -151,7 +151,7 @@ hr+p{background:${C.sand};border-left:3px solid ${C.orange};padding:3mm 4mm;font
 .keep{break-inside:avoid}
 </style></head><body>
 <div class="cover">
-  <div class="support"><i></i>Blog · EB-2 NIW</div>
+  <div class="support"><i></i>Blog · All Green News</div>
   <h1>${titleB.length ? `${esc(titleA)}:<em>${esc(titleB.join(':'))}</em>` : esc(h1)}</h1>
   <div class="line">Publicado em ${esc((fm.publicado || '').split('-').reverse().join('/'))}</div>
 </div>
