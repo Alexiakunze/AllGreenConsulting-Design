@@ -9,6 +9,9 @@ SAÍDA
 - E-mail: node newsletter/newsletter.mjs [arquivo.md]  (opcional: LOGO_URL=<png hospedado> para usar o logo oficial).
 - PDF A4 no padrão All Letter's: node newsletter/print.mjs [arquivo.md]  (no Mac: CHROME_PATH="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome").
 
+FOCO DA EMPRESA
+A All Green é especializada em EB-2 NIW. Toda notícia entra pelo ângulo do EB-2 NIW (fila do EB-2, critérios do NIW, demanda por profissionais nas áreas de interesse nacional). Outras categorias (EB-5, H-1B etc.) só entram como contexto ou comparação, nunca como tema principal.
+
 REGRAS
 - Só entra fato marcado PODE AFIRMAR. PROJEÇÃO só se vier dita como projeção. EM ANDAMENTO diz que ainda não é definitivo. NÃO USAR e ARGUMENTO nunca entram.
 - Nada de frase de venda de call ("Como usar na call", "Frase de SDR"). Troque por "O que isso significa para você": uma frase informativa, sem prometer aprovação nem prazo.
