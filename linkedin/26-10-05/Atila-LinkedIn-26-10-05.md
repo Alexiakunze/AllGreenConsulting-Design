@@ -1,30 +1,24 @@
 # LinkedIn do Atila Ghidoni | Semana de 05 a 11 de outubro de 2026
 
-3 posts para o perfil do Atila Ghidoni, baseados nas notícias da semana (mesmas fontes dos artigos de blog da semana). Persona, público e formato seguem `linkedin/Prompt-LinkedIn-Semanal.md`.
+3 posts para o perfil do Atila Ghidoni, baseados nas notícias da semana (mesmas fontes dos artigos de blog da semana). Escrita jornalística: o fato abre o texto, com quem, o quê, quando e por quê, seguido de contexto, consequência e o que vem a seguir. Palavras de busca no texto: green card, EB-2 NIW, EB-5, visto americano, H-1B, engenheiro nos EUA. Até 3 hashtags por post.
 
-Ganchos: as duas primeiras linhas de cada post (antes do "ver mais") abrem uma curiosidade para o ICP. Palavras de busca usadas no texto: green card, EB-2 NIW, EB-5, visto americano, morar nos EUA, engenheiro nos EUA. Hashtags: no máximo 3 por post.
-
-Sugestão de calendário: terça, quarta e quinta, um por dia, cada um com a sua imagem (`post-1.png`, `post-2.png`, `post-3.png`). Links das fontes no primeiro comentário.
+Sugestão de calendário: terça, quarta e quinta, um por dia. Links das fontes no primeiro comentário.
 
 ---
 
-## Post 1: O ativo que não aparece no balanço
+## Post 1: Justiça americana bloqueia de novo a taxa de US$ 100 mil do H-1B
 
-**Imagem:** post-1.png
+A cobrança de US$ 100 mil por visto H-1B, o principal visto de trabalho americano para profissionais com diploma, foi bloqueada pela segunda vez na Justiça federal.
 
-Um juiz da Califórnia acaba de mexer em uma das contas mais importantes para quem planeja morar nos EUA, e a maioria das pessoas nem percebeu.
+Em 30 de setembro, o juiz Haywood S. Gilliam Jr., do Distrito Norte da Califórnia, concedeu uma liminar no caso Global Nurse Force v. Trump. A decisão impede o USCIS, o Departamento de Estado e a agência de fronteiras (CBP) de aplicar a cobrança, inclusive a extensão assinada em 18 de setembro, que a prorrogava até setembro de 2027.
 
-Em 30 de setembro, ele impediu as agências americanas de aplicar a cobrança de US$ 100 mil por visto H-1B, incluindo a extensão assinada em setembro que a levaria até 2027. É a segunda decisão judicial nesse sentido, e o fundamento foi técnico: a cobrança provavelmente foi imposta sem a consulta pública que a lei administrativa americana exige.
+Segundo o tribunal, as agências provavelmente violaram a lei de procedimento administrativo dos EUA ao impor a taxa sem consulta pública. A liminar não anula as proclamações presidenciais nem decide se o presidente ultrapassou a sua autoridade. Antes dela, um tribunal de Massachusetts já havia derrubado as mesmas políticas, e em julho a Corte de Apelações do 1º Circuito negou o pedido do governo para retomar a cobrança durante o recurso.
 
-Para quem planeja uma carreira nos EUA a partir de um visto patrocinado, o episódio expõe uma camada de risco que costuma ficar fora da conta. O custo da contratação passou a depender de um processo judicial, e o prazo também.
+Com as duas decisões, a taxa não está sendo cobrada. O governo pode recorrer, e uma audiência do caso na Califórnia está marcada para 27 de outubro. Em paralelo, segue em análise uma proposta do DHS que cria outra taxa, de US$ 103.265 por petição.
 
-Há, porém, uma leitura menos evidente e mais útil. Mesmo sob forte pressão política, uma regra que afeta milhares de empresas precisou seguir um rito antes de valer. Quem vem de mercados emergentes conhece bem a incerteza que nasce da própria norma, alterada de uma hora para outra. No sistema americano, a regra pode ser dura, mas tem de passar por um processo.
+Para profissionais brasileiros, o caso mostra o grau de incerteza que hoje envolve o visto patrocinado por empregador. O green card EB-2 NIW, em que o próprio profissional faz o pedido, não depende de patrocinador nem do sorteio do H-1B e não está sujeito a essas taxas.
 
-Essa previsibilidade institucional raramente aparece em uma planilha, embora esteja embutida em toda decisão de longo prazo: onde investir, onde estruturar uma empresa, onde educar os filhos. E ela pesa ainda mais quando a via de acesso escolhida depende do próprio histórico do profissional.
-
-Em qual jurisdição as regras que protegem o seu patrimônio precisam seguir um processo antes de mudar?
-
-#GreenCard #VistoAmericano #EB2NIW
+#VistoAmericano #H1B #GreenCard
 
 ---
 
@@ -34,21 +28,15 @@ Em qual jurisdição as regras que protegem o seu patrimônio precisam seguir um
 
 ---
 
-## Post 2: Capital financeiro ou capital intelectual
+## Post 2: Taxas do EB-5 dobram a partir de 30 de novembro
 
-**Imagem:** post-2.png
+O governo americano publicou a regra final que reajusta as taxas do EB-5, o green card por investimento. Os novos valores valem para pedidos enviados a partir de 30 de novembro de 2026.
 
-Existe um caminho para o green card americano que não exige nenhum investimento, e ele costuma passar despercebido justamente por quem tem patrimônio.
+A regra saiu no Federal Register em 30 de setembro, um dia depois do anúncio do USCIS. A petição do investidor via centro regional (formulário I-526E) passa de US$ 3.675 para US$ 7.850. A do investidor independente (I-526) vai a US$ 7.615, e o pedido para remover as condições do green card (I-829) sobe de US$ 3.750 para US$ 5.000. A taxa anual paga pelos centros regionais ao fundo de integridade do programa passa de US$ 1.000 para US$ 1.100.
 
-A notícia que trouxe esse caminho de volta à mesa veio do outro lado: o EB-5, o green card por investimento, ficou mais caro. O governo americano publicou a regra final que reajusta as taxas do programa, e a partir de 30 de novembro a petição do investidor via centro regional passa de US$ 3.675 para US$ 7.850, e o pedido para remover as condições do green card sobe de US$ 3.750 para US$ 5.000. O valor mínimo de investimento, definido em lei, continua o mesmo.
+O reajuste é consequência do caso Moody v. Noem, em que a Justiça obrigou o USCIS a deixar de cobrar as taxas do EB-5 fixadas na regra geral de 2024. Os valores mínimos de investimento, definidos em lei, não mudaram.
 
-Diante do capital alocado em um EB-5, o reajuste das taxas é pequeno. O que ele revela merece mais atenção: o custo de entrada pode mudar por ato administrativo, e quem adia uma decisão de jurisdição acaba absorvendo essas mudanças sem perceber.
-
-Toda residência em outro país é, de alguma forma, adquirida com capital, e o sistema americano aceita uma segunda forma dele. No EB-2 NIW, nenhum investimento é exigido. O requerente demonstra que o seu trabalho tem mérito substancial e importância nacional para os EUA. Para empresários com trajetória técnica, médicos, engenheiros e pesquisadores, o histórico profissional pode abrir a mesma porta que o capital financeiro.
-
-As duas vias podem conviver no planejamento de uma família, e a escolha depende do perfil, do patrimônio e dos objetivos de cada um. Avaliar a residência apenas pelo quanto se investe deixa metade do balanço fora da análise.
-
-Qual dos seus ativos tem hoje mais liquidez em outra jurisdição: o que está na sua conta ou o que está no seu currículo?
+Para quem já tem o investimento estruturado, protocolar antes de 30 de novembro evita os novos valores. Para quem ainda avalia o caminho, o EB-5 continua sendo uma das duas principais vias de green card sem empregador. A outra é o EB-2 NIW, que não exige investimento: o requerente precisa demonstrar que o seu trabalho tem mérito substancial e importância nacional para os EUA. A escolha entre as duas depende do perfil profissional, do patrimônio e dos objetivos de cada família.
 
 #GreenCard #EB5 #EB2NIW
 
@@ -60,21 +48,17 @@ Qual dos seus ativos tem hoje mais liquidez em outra jurisdição: o que está n
 
 ---
 
-## Post 3: Onde está o gargalo
+## Post 3: EUA têm déficit de 18 mil engenheiros por ano, aponta estudo
 
-**Imagem:** post-3.png
+Os Estados Unidos têm um déficit anual de 18 mil engenheiros, segundo estudo do ACEC Research Institute, braço de pesquisa do conselho americano de empresas de engenharia, divulgado em 30 de setembro.
 
-Dos 40.606 engenheiros estrangeiros que se formaram nos EUA em 2022, apenas 9% conseguiram o visto de trabalho mais conhecido do país. Esse número diz muito sobre como planejar uma carreira lá fora.
+O levantamento mostra que as formaturas em engenharia no país chegaram ao pico em 2019, com cerca de 214 mil diplomas, e caíram mais de 10 mil desde então. As maiores quedas foram em engenharia civil, mecânica e elétrica.
 
-Um estudo do ACEC Research Institute divulgado em 30 de setembro estima que faltam 18 mil engenheiros por ano no país, e as formaturas em engenharia caíram mais de 10 mil desde o pico de 2019. Entre os estrangeiros formados no país, só cerca de 9% obtiveram o H-1B, mesmo com essa falta de profissionais.
+O estudo também acompanhou os estrangeiros. Dos 40.606 que se formaram em engenharia nos EUA em 2022, cerca de 3.825, ou 9%, obtiveram o visto de trabalho H-1B, que depende de um empregador patrocinador e de um sorteio anual.
 
-O país qualifica esses profissionais dentro do próprio sistema, e a principal via de trabalho absorve apenas uma fração deles. Essa via depende de um empregador disposto a patrocinar, de um sorteio anual e, em 2026, de uma regulação em disputa judicial.
+A pressão é maior na indústria de semicondutores, em que projeções do setor indicam até 157 mil vagas sem preenchimento até 2030, com a expansão de fábricas no Arizona e em Nova York.
 
-Para o profissional brasileiro de alto nível, a lição é estrutural. Quando o acesso passa por um gargalo controlado por terceiros, a qualificação sozinha raramente resolve, e faz sentido buscar uma via em que ela seja o próprio critério de avaliação.
-
-O EB-2 NIW foi desenhado assim. O requerente dispensa patrocinador e sorteio, e precisa demonstrar que o seu trabalho tem importância nacional para os EUA e que está bem posicionado para levá-lo adiante. Em áreas como infraestrutura, energia e semicondutores, em que o setor projeta até 157 mil vagas sem preenchimento até 2030, esse argumento pode ser construído com dados públicos.
-
-Se o seu acesso a outro mercado depende de um gargalo que você não controla, até que ponto o seu plano está nas suas mãos?
+Para engenheiros brasileiros com pós-graduação ou carreira consolidada, os números ajudam a entender o mercado. Além do H-1B, existe o green card EB-2 NIW, em que o próprio profissional faz o pedido sem patrocinador nem sorteio. Nele, o USCIS avalia se o trabalho tem importância nacional para os EUA e se o requerente está bem posicionado para levá-lo adiante.
 
 #Engenharia #GreenCard #EB2NIW
 
