@@ -3,10 +3,10 @@ Semana de 05 a 11 de outubro de 2026 · vídeo vertical (Reels, TikTok, Shorts) 
 
 | Tempo | Fala | Texto na tela |
 |---|---|---|
-| 0–4s | O que mudou nesta semana para quem quer o green card EB-2 NIW, em um minuto. | EB-2 NIW · NOTÍCIAS DE 05 A 11/10 |
-| 4–17s | Primeiro, a fila. Em outubro, o EB-2 para brasileiros tem data de corte em 1º de janeiro de 2025 para emitir o green card, e em 15 de março de 2026 para protocolar o pedido final. O boletim de novembro deve sair na segunda quinzena do mês. | Fila do EB-2 Brasil: 01/01/2025 · protocolo: 15/03/2026 |
-| 17–31s | Segundo, o visto de trabalho. A Justiça americana bloqueou pela segunda vez a taxa de cem mil dólares do H-1B, o visto que depende de empresa patrocinadora. O governo pode recorrer. O EB-2 NIW não passa por essa taxa: o próprio profissional faz o pedido. | H-1B: taxa de US$ 100 mil bloqueada · EB-2 NIW: sem patrocinador |
-| 31–46s | Terceiro, a demanda. Estudo do ACEC aponta que os Estados Unidos têm um déficit de 18 mil engenheiros por ano. É o tipo de dado que ajuda a mostrar a importância nacional de um trabalho, um dos critérios do NIW. | Déficit de 18 mil engenheiros/ano nos EUA |
+| 0–4s | O que mudou nesta semana para quem quer o EB-2 NIW. | EB-2 NIW · NOTÍCIAS DE 05 A 11/10 |
+| 4–17s | Primeiro, a fila. Em outubro, o EB-2 para brasileiros tem data de corte em 1º de janeiro de 2025. O boletim de novembro sai na segunda quinzena do mês. | Fila do EB-2 Brasil: data de corte 01/01/2025 |
+| 17–31s | Segundo, a Justiça americana bloqueou pela segunda vez a taxa de cem mil dólares do H-1B, o visto que depende de empresa patrocinadora. O EB-2 NIW não passa por essa taxa: o próprio profissional faz o pedido. | H-1B: taxa de US$ 100 mil bloqueada · EB-2 NIW: sem patrocinador |
+| 31–46s | Terceiro, um estudo do ACEC aponta déficit de 18 mil engenheiros por ano nos Estados Unidos. Dados assim ajudam a mostrar a importância nacional de um trabalho, um dos critérios do NIW. | Déficit de 18 mil engenheiros/ano nos EUA |
 | 46–54s | No EB-2 NIW, a sua data de prioridade começa a contar no protocolo, e ela não se perde. | Data de prioridade = data do protocolo |
 | 54–60s | Quer saber se o seu perfil se encaixa no EB-2 NIW? Fale com a All Green. | ALL GREEN CONSULTING · Fontes na legenda |
 
