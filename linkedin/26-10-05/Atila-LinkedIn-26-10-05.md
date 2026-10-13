@@ -20,7 +20,7 @@ Para quem planeja uma carreira nos EUA a partir de um visto patrocinado, o epis�
 
 Há, porém, uma leitura menos evidente e mais útil. Mesmo sob forte pressão política, uma regra que afeta milhares de empresas precisou seguir um rito antes de valer. Quem vem de mercados emergentes conhece bem a incerteza que nasce da própria norma, alterada de uma hora para outra. No sistema americano, a regra pode ser dura, mas tem de passar por um processo.
 
-Essa previsibilidade institucional raramente aparece em uma planilha, embora esteja embutida em toda decisão de longo prazo: onde investir, onde estruturar uma empresa, onde educar os filhos. E ela pesa ainda mais quando a via de acesso escolhida depende do próprio histórico, e não da agenda de um terceiro.
+Essa previsibilidade institucional raramente aparece em uma planilha, embora esteja embutida em toda decisão de longo prazo: onde investir, onde estruturar uma empresa, onde educar os filhos. E ela pesa ainda mais quando a via de acesso escolhida depende do próprio histórico do profissional.
 
 Em qual jurisdição as regras que protegem o seu patrimônio precisam seguir um processo antes de mudar?
 
@@ -40,7 +40,7 @@ Em qual jurisdição as regras que protegem o seu patrimônio precisam seguir um
 
 Existe um caminho para o green card americano que não exige nenhum investimento, e ele costuma passar despercebido justamente por quem tem patrimônio.
 
-A notícia que trouxe esse caminho de volta à mesa veio do outro lado: o EB-5, o green card por investimento, ficou mais caro. O governo americano publicou a regra final que reajusta as taxas do EB-5, o green card por investimento. A partir de 30 de novembro, a petição do investidor via centro regional passa de US$ 3.675 para US$ 7.850, e o pedido para remover as condições do green card sobe de US$ 3.750 para US$ 5.000. O valor mínimo de investimento, definido em lei, continua o mesmo.
+A notícia que trouxe esse caminho de volta à mesa veio do outro lado: o EB-5, o green card por investimento, ficou mais caro. O governo americano publicou a regra final que reajusta as taxas do programa, e a partir de 30 de novembro a petição do investidor via centro regional passa de US$ 3.675 para US$ 7.850, e o pedido para remover as condições do green card sobe de US$ 3.750 para US$ 5.000. O valor mínimo de investimento, definido em lei, continua o mesmo.
 
 Diante do capital alocado em um EB-5, o reajuste das taxas é pequeno. O que ele revela merece mais atenção: o custo de entrada pode mudar por ato administrativo, e quem adia uma decisão de jurisdição acaba absorvendo essas mudanças sem perceber.
 
