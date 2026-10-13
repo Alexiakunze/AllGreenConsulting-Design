@@ -4,8 +4,14 @@
     "kicker": "Visto H-1B",
     "titulo": "O ativo que não aparece no *balanço*",
     "dados": [
-      { "valor": "2", "legenda": "Decisões federais que bloqueiam a cobrança de US$ 100 mil" },
-      { "valor": "30/09", "legenda": "Liminar da Califórnia alcança também a extensão até 2027" }
+      {
+        "valor": "2",
+        "legenda": "Decisões federais que bloqueiam a cobrança de US$ 100 mil"
+      },
+      {
+        "valor": "30/09",
+        "legenda": "Liminar da Califórnia alcança também a extensão até 2027"
+      }
     ],
     "fecho": "A regra pode ser dura, mas precisa seguir o processo.",
     "fonte": "Fontes: Immigration Analytics, Ellis, out/2026"
@@ -15,20 +21,35 @@
     "kicker": "EB-5 · Taxas",
     "titulo": "Capital financeiro ou capital *intelectual*",
     "dados": [
-      { "valor": "US$ 7.850", "legenda": "Nova taxa do I-526E a partir de 30/11 (antes US$ 3.675)" },
-      { "valor": "US$ 5.000", "legenda": "Nova taxa do I-829 (antes US$ 3.750)" }
+      {
+        "valor": "US$ 7.850",
+        "legenda": "Nova taxa do I-526E a partir de 30/11 (antes US$ 3.675)"
+      },
+      {
+        "valor": "US$ 5.000",
+        "legenda": "Nova taxa do I-829 (antes US$ 3.750)"
+      }
     ],
-    "fecho": "No EB-2 NIW, o ativo de acesso é o histórico profissional.",
+    "fecho": "No EB-2 NIW, o histórico profissional abre a porta.",
     "fonte": "Fonte: Federal Register, 30/09/2026"
   },
   {
     "arquivo": "post-3.png",
     "kicker": "Engenharia",
-    "titulo": "O gargalo não é o *talento*",
+    "titulo": "O gargalo está no *canal de entrada*",
     "dados": [
-      { "valor": "18 mil", "legenda": "Engenheiros em falta por ano nos EUA" },
-      { "valor": "9%", "legenda": "Dos 40.606 engenheiros estrangeiros formados nos EUA em 2022 obtiveram H-1B" },
-      { "valor": "157 mil", "legenda": "Vagas em semicondutores que podem ficar abertas até 2030 (projeção)" }
+      {
+        "valor": "18 mil",
+        "legenda": "Engenheiros em falta por ano nos EUA"
+      },
+      {
+        "valor": "9%",
+        "legenda": "Dos 40.606 engenheiros estrangeiros formados nos EUA em 2022 obtiveram H-1B"
+      },
+      {
+        "valor": "157 mil",
+        "legenda": "Vagas em semicondutores que podem ficar abertas até 2030 (projeção)"
+      }
     ],
     "fecho": "",
     "fonte": "Fontes: ACEC, 30/09/2026; Tom's Hardware"

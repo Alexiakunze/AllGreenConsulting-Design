@@ -22,6 +22,7 @@ DIRETRIZES DE ESCRITA
 5. Sem identificação: não mencione o cargo de CEO no texto; a autoridade transparece na profundidade do argumento.
 6. Cada post explora as engrenagens invisíveis por trás da notícia, comparando a mentalidade de mercados emergentes com a eficiência do sistema americano.
 7. Parágrafos curtos e completos (2 a 4 frases), sem uma frase por linha, sem setas, sem tom de palco ou de "surto". Nada de imperativos agressivos.
+8. Texto fluido, com frases que se encadeiam. Não use a estrutura de contraste "não é X, é Y" (nem variações como "não veio de X. Veio de Y", "o ponto não é X, é Y", "não por X, mas por Y"), nem frases de efeito soltas.
 
 FORMATO (State of LinkedIn Brasil 2026)
 - Post de executivo, texto longo + uma imagem; não use artigo com link. Links das fontes no primeiro comentário.

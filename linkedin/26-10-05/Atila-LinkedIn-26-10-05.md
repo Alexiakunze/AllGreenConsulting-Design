@@ -10,19 +10,17 @@ Sugestão de calendário: terça, quarta e quinta, um por dia, cada um com a sua
 
 **Imagem:** post-1.png
 
-A notícia mais relevante da semana para quem avalia os EUA não veio da Casa Branca. Veio de um tribunal.
+A notícia mais relevante da semana para quem avalia os EUA saiu de um tribunal federal na Califórnia.
 
-Em 30 de setembro, um juiz federal da Califórnia impediu as agências americanas de aplicar a cobrança de US$ 100 mil por visto H-1B, inclusive a extensão assinada em setembro, que a prorrogava até 2027. É a segunda decisão judicial no mesmo sentido. O fundamento não foi político: o tribunal entendeu que a cobrança provavelmente foi imposta sem o processo de consulta pública exigido pela lei administrativa americana.
+Em 30 de setembro, um juiz impediu as agências americanas de aplicar a cobrança de US$ 100 mil por visto H-1B, incluindo a extensão assinada em setembro que a levaria até 2027. É a segunda decisão judicial nesse sentido, e o fundamento foi técnico: a cobrança provavelmente foi imposta sem a consulta pública que a lei administrativa americana exige.
 
-Há duas leituras possíveis. A primeira é a da volatilidade: o visto patrocinado por empregador virou objeto de disputa judicial, com custo incerto e prazo incerto. Para quem planeja uma carreira, isso é risco de contraparte somado a risco regulatório.
+Para quem planeja uma carreira nos EUA a partir de um visto patrocinado, o episódio expõe uma camada de risco que costuma ficar fora da conta. O custo da contratação passou a depender de um processo judicial, e o prazo também.
 
-A segunda leitura é menos óbvia, e mais importante. Mesmo sob pressão política intensa, o sistema americano exigiu procedimento. Uma regra que afeta milhares de empresas não pôde ser imposta sem rito. Em mercados emergentes, a incerteza costuma vir da própria norma, que muda sem aviso. Nos EUA, a regra pode ser dura, mas precisa seguir o processo.
+Há, porém, uma leitura menos evidente e mais útil. Mesmo sob forte pressão política, uma regra que afeta milhares de empresas precisou seguir um rito antes de valer. Quem vem de mercados emergentes conhece bem a incerteza que nasce da própria norma, alterada de uma hora para outra. No sistema americano, a regra pode ser dura, mas tem de passar por um processo.
 
-Previsibilidade institucional é um ativo que não aparece no balanço, mas está precificado em toda decisão de longo prazo: onde investir, onde construir uma empresa, onde educar os filhos.
+Essa previsibilidade institucional raramente aparece em uma planilha, embora esteja embutida em toda decisão de longo prazo: onde investir, onde estruturar uma empresa, onde educar os filhos. E ela pesa ainda mais quando a via de acesso escolhida depende do próprio histórico, e não da agenda de um terceiro.
 
-A questão, portanto, não é se os EUA ficaram mais difíceis. É qual via de acesso depende menos da vontade de terceiros e mais do seu próprio histórico.
-
-Em qual jurisdição as regras que regem o seu patrimônio precisam seguir um processo antes de mudar?
+Em qual jurisdição as regras que protegem o seu patrimônio precisam seguir um processo antes de mudar?
 
 ---
 
@@ -36,15 +34,15 @@ Em qual jurisdição as regras que regem o seu patrimônio precisam seguir um pr
 
 **Imagem:** post-2.png
 
-Toda residência estrangeira é comprada com algum tipo de capital. A pergunta é qual.
+Toda residência em outro país é, de alguma forma, adquirida com capital. Nesta semana, o capital financeiro ficou um pouco mais caro.
 
-Nesta semana ficou mais caro usar o financeiro. O governo americano publicou a regra final que reajusta as taxas do EB-5, o green card por investimento. A partir de 30 de novembro, a petição do investidor via centro regional passa de US$ 3.675 para US$ 7.850. O pedido para remover as condições do green card sobe de US$ 3.750 para US$ 5.000. O valor mínimo de investimento, definido em lei, não muda.
+O governo americano publicou a regra final que reajusta as taxas do EB-5, o green card por investimento. A partir de 30 de novembro, a petição do investidor via centro regional passa de US$ 3.675 para US$ 7.850, e o pedido para remover as condições do green card sobe de US$ 3.750 para US$ 5.000. O valor mínimo de investimento, definido em lei, continua o mesmo.
 
-Para um investidor, o reajuste das taxas é irrelevante diante do capital alocado. O ponto não é o valor. É o sinal: o custo de entrada se move por ato administrativo, e quem adia uma decisão de jurisdição paga a diferença sem perceber.
+Diante do capital alocado em um EB-5, o reajuste das taxas é pequeno. O que ele revela merece mais atenção: o custo de entrada pode mudar por ato administrativo, e quem adia uma decisão de jurisdição acaba absorvendo essas mudanças sem perceber.
 
-Existe uma segunda moeda aceita pelo sistema americano, frequentemente subestimada por quem tem patrimônio: o capital intelectual. No EB-2 NIW, não há investimento exigido. O que se demonstra é que o trabalho do requerente tem mérito substancial e importância nacional para os EUA. Para empresários com trajetória técnica, médicos, engenheiros e pesquisadores, o histórico profissional pode ser um ativo de acesso tão concreto quanto o capital financeiro.
+O sistema americano também aceita uma segunda forma de capital, muitas vezes subestimada por quem tem patrimônio. No EB-2 NIW, nenhum investimento é exigido. O requerente demonstra que o seu trabalho tem mérito substancial e importância nacional para os EUA. Para empresários com trajetória técnica, médicos, engenheiros e pesquisadores, o histórico profissional pode abrir a mesma porta que o capital financeiro.
 
-As duas vias não são excludentes, e a escolha depende do perfil, do patrimônio e dos objetivos da família. Mas tratar a residência apenas como uma questão de quanto investir é ignorar metade do balanço.
+As duas vias podem conviver no planejamento de uma família, e a escolha depende do perfil, do patrimônio e dos objetivos de cada um. Avaliar a residência apenas pelo quanto se investe deixa metade do balanço fora da análise.
 
 Qual dos seus ativos tem hoje mais liquidez em outra jurisdição: o que está na sua conta ou o que está no seu currículo?
 
@@ -56,21 +54,21 @@ Qual dos seus ativos tem hoje mais liquidez em outra jurisdição: o que está n
 
 ---
 
-## Post 3: O gargalo não é o talento
+## Post 3: Onde está o gargalo
 
 **Imagem:** post-3.png
 
-Os EUA não têm um problema de talento. Têm um problema de canal.
+Os EUA formam engenheiros de alto nível todos os anos e, ainda assim, convivem com um déficit crescente. O gargalo está no canal de entrada.
 
-Um estudo do ACEC Research Institute divulgado em 30 de setembro mostra que o país tem um déficit anual de 18 mil engenheiros. As formaturas em engenharia caíram mais de 10 mil desde o pico de 2019. E o dado mais revelador: dos 40.606 estrangeiros que se formaram em engenharia nos EUA em 2022, cerca de 9% obtiveram o visto H-1B.
+Um estudo do ACEC Research Institute divulgado em 30 de setembro estima que faltam 18 mil engenheiros por ano no país, e as formaturas em engenharia caíram mais de 10 mil desde o pico de 2019. O dado mais revelador está entre os estrangeiros: dos 40.606 que se formaram em engenharia nos EUA em 2022, cerca de 9% obtiveram o visto H-1B.
 
-Ou seja, o país forma, qualifica e treina profissionais dentro do próprio sistema, e a principal via de trabalho absorve uma fração pequena deles. Não por falta de mérito, mas porque o canal depende de um empregador disposto a patrocinar, de um sorteio anual e, em 2026, de uma regulação em disputa judicial.
+O país qualifica esses profissionais dentro do próprio sistema, e a principal via de trabalho absorve apenas uma fração deles. Essa via depende de um empregador disposto a patrocinar, de um sorteio anual e, em 2026, de uma regulação em disputa judicial.
 
-Para o profissional brasileiro de alto nível, a lição é estrutural. Quando o acesso depende de um gargalo controlado por terceiros, a qualificação não basta; é preciso escolher uma via em que a qualificação seja o próprio critério.
+Para o profissional brasileiro de alto nível, a lição é estrutural. Quando o acesso passa por um gargalo controlado por terceiros, a qualificação sozinha raramente resolve, e faz sentido buscar uma via em que ela seja o próprio critério de avaliação.
 
-É o desenho do EB-2 NIW. O requerente não precisa de patrocinador e não passa por sorteio. Precisa demonstrar que o seu trabalho tem importância nacional para os EUA e que está bem posicionado para levá-lo adiante. Em áreas como infraestrutura, energia e semicondutores, onde o setor projeta até 157 mil vagas sem preenchimento até 2030, esse argumento tende a ser construído com dados públicos.
+O EB-2 NIW foi desenhado assim. O requerente dispensa patrocinador e sorteio, e precisa demonstrar que o seu trabalho tem importância nacional para os EUA e que está bem posicionado para levá-lo adiante. Em áreas como infraestrutura, energia e semicondutores, em que o setor projeta até 157 mil vagas sem preenchimento até 2030, esse argumento pode ser construído com dados públicos.
 
-Se o seu acesso a outro mercado depende de um gargalo que você não controla, o seu plano é uma estratégia ou uma aposta?
+Se o seu acesso a outro mercado depende de um gargalo que você não controla, até que ponto o seu plano está nas suas mãos?
 
 ---
 
