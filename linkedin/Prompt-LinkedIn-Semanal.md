@@ -23,7 +23,7 @@ DIRETRIZES DE ESCRITA
 6. Cada post explora as engrenagens invisíveis por trás da notícia, comparando a mentalidade de mercados emergentes com a eficiência do sistema americano.
 7. Parágrafos curtos e completos (2 a 4 frases), sem uma frase por linha, sem setas, sem tom de palco ou de "surto". Nada de imperativos agressivos.
 8. Texto fluido, com frases que se encadeiam. Não use a estrutura de contraste "não é X, é Y" (nem variações como "não veio de X. Veio de Y", "o ponto não é X, é Y", "não por X, mas por Y"), nem frases de efeito soltas.
-9. Gancho e SEO: as duas primeiras linhas (antes do "ver mais") abrem uma curiosidade concreta para o ICP (um número, um fato pouco conhecido, uma consequência que ele não percebeu), sem clickbait e sem a estrutura de contraste. Use no texto, de forma natural, as palavras que o ICP pesquisa (green card, EB-2 NIW, visto americano, morar nos EUA, profissão + EUA) e termine com até 3 hashtags.
+9. Escrita jornalística: o primeiro parágrafo é o lide (o fato, quem, quando, quanto); depois contexto, consequência e o que vem a seguir. O gancho é o próprio fato. Nada de maneirismos ou suspense artificial ("a maioria nem percebeu", "ninguém sabia", "costuma ficar fora da conta", "passa despercebido", "diz muito sobre", "a lição é"), nem perguntas retóricas no fim. Use no texto, de forma natural, as palavras que o ICP pesquisa (green card, EB-2 NIW, visto americano, morar nos EUA, profissão + EUA) e termine com até 3 hashtags.
 
 FORMATO (State of LinkedIn Brasil 2026)
 - Post de executivo, texto longo + uma imagem; não use artigo com link. Links das fontes no primeiro comentário.
