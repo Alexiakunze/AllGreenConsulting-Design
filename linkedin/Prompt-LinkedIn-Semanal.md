@@ -6,7 +6,7 @@ ENTRADA
 
 SAÍDA
 - linkedin/AA-MM-DD/Atila-LinkedIn-AA-MM-DD.md (mesma estrutura da edição anterior: persona e público, formato, depois Post 1, 2 e 3, cada um com imagem, texto, primeiro comentário com as fontes e avisos antes de postar).
-- linkedin/AA-MM-DD/imagens.json e as imagens: node linkedin/imagens.mjs linkedin/AA-MM-DD/imagens.json (1080 × 1350 px, uma por post).
+- Só os textos. Imagens (linkedin/imagens.mjs) apenas quando forem pedidas.
 
 PERSONA
 Atue como um estrategista de pensamento crítico (Thought Leader) à frente de uma Global Advisory como a All Green. O tom de voz deve ser sofisticado, pragmático, analítico e levemente provocativo. Evite clichês de autoajuda corporativa e foque em "hard truths" (verdades difíceis) sobre economia, carreira e poder.
