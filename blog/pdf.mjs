@@ -100,8 +100,8 @@ for (let i = 0; i < lines.length; i++) {
   else blocks.push(`<p>${inline(line)}</p>`);
 }
 
-const DOC_NAME = 'Blog · All Green Consulting';
-const seo = `<div class="seo keep">
+const DOC_NAME = process.env.DOC_NAME || 'Blog · All Green Consulting';
+const seo = !fm.title_seo ? '' : `<div class="seo keep">
 <div><span class="lbl">Título SEO</span>${esc(fm.title_seo || '')}</div>
 <div><span class="lbl">Meta description</span>${esc(fm.meta_description || '')}</div>
 <div class="row"><div><span class="lbl">Slug</span>/${esc(fm.slug || '')}</div><div><span class="lbl">Palavra-chave</span>${esc(fm.palavra_chave || '')}</div></div>
@@ -115,7 +115,7 @@ ${font('Space Grotesk', [400, 500, 600, 700])}
 @page{size:A4;margin:30mm 18mm 22mm}
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
-body{font-family:'Space Grotesk',sans-serif;font-size:10.5pt;line-height:1.5;color:${C.text};-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{font-family:'Space Grotesk','Noto Color Emoji',sans-serif;font-size:10.5pt;line-height:1.5;color:${C.text};-webkit-print-color-adjust:exact;print-color-adjust:exact}
 a{color:inherit}
 p{margin:0 0 2.5mm}
 .cover{position:relative;overflow:hidden;background:${C.green};border-radius:4mm;padding:8mm 10mm 7mm;margin-bottom:6mm}
@@ -151,7 +151,7 @@ hr+p{background:${C.sand};border-left:3px solid ${C.orange};padding:3mm 4mm;font
 .keep{break-inside:avoid}
 </style></head><body>
 <div class="cover">
-  <div class="support"><i></i>Blog · All Green News</div>
+  <div class="support"><i></i>${esc(process.env.LABEL || 'Blog · All Green News')}</div>
   <h1>${titleB.length ? `${esc(titleA)}:<em>${esc(titleB.join(':'))}</em>` : esc(h1)}</h1>
   <div class="line">Publicado em ${esc((fm.publicado || '').split('-').reverse().join('/'))}</div>
 </div>
