@@ -1,0 +1,66 @@
+{
+  "semana": "Semana de 02 a 08/11/2026",
+  "cta_url": "https://allgreenconsulting.com",
+  "cta_texto": "Solicitar análise de perfil",
+  "hero": {
+    "kicker": "All Green News · Semana de 02 a 08/11/2026",
+    "titulo": "Visto temporário ficou mais *frágil*. O green card continua sendo o destino.",
+    "subtitulo": "O que mudou nesta semana para profissionais de alta qualificação que planejam a residência permanente nos EUA, com dados verificados e fontes.",
+    "dados": [
+      { "valor": "01/04/2025", "legenda": "Data de corte do EB-2 para o Brasil em novembro" },
+      { "valor": "60 dias", "legenda": "Período de graça que o governo propõe eliminar para H-1B, L-1 e O-1" },
+      { "valor": "R$ 5,51", "legenda": "Fechamento do dólar em 06/11, o maior de 2026" }
+    ]
+  },
+  "noticias": [
+    {
+      "tag": "Vistos temporários",
+      "titulo": "Governo propõe acabar com o período de graça de 60 dias",
+      "texto": "Proposta do DHS publicada em 11/09, com comentários encerrados em 10/11, elimina o período de até 60 dias que profissionais com H-1B, L-1, O-1, E e TN têm para se reorganizar depois do fim do emprego. Se a regra for aprovada, eles teriam de sair dos EUA imediatamente, salvo outra base legal. A proposta ainda não está em vigor.",
+      "leitura": "Para quem vive nos EUA com visto atrelado a um emprego, a margem de segurança diminui. O green card é residência permanente e não depende de manter um vínculo específico.",
+      "fonte": "[Federal Register, 11/09](https://www.federalregister.gov/documents/2026/09/11/2026-18631/eliminating-the-discretionary-60-day-grace-period) · [Forbes](https://www.forbes.com/sites/stuartanderson/2026/09/11/dhs-proposes-immigration-rule-to-end-60-day-h-1b-grace-period/)"
+    },
+    {
+      "tag": "Política americana",
+      "titulo": "Democratas conquistam a Câmara e o Senado nas eleições de 03/11",
+      "texto": "Com contagem ainda em andamento, os democratas somavam 254 cadeiras na Câmara e 54 no Senado, contra 44 dos republicanos. O novo Congresso assume em janeiro de 2027.",
+      "leitura": "O EB-2 NIW está previsto em lei e segue com as mesmas regras. Mudanças de maioria no Congresso afetam o ambiente legislativo; as propostas de regra em análise continuam com o Executivo.",
+      "fonte": "[CNBC](https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html) · [CNN, 05/11](https://www.cnn.com/2026/11/05/politics/live-news/midterm-election-congress)"
+    },
+    {
+      "tag": "Tecnologia e saúde",
+      "titulo": "Faltam profissionais de cibersegurança e enfermagem",
+      "texto": "Relatório da Fortinet divulgado nesta semana aponta que 86% das organizações sofreram ao menos um ataque cibernético no último ano. Na saúde, a Carolina do Norte tem mais de 7 mil vagas abertas de enfermeiros registrados, a maior entre as ocupações de saúde do estado.",
+      "leitura": "Escassez documentada em áreas críticas é o tipo de dado que ajuda a demonstrar a importância nacional de um trabalho, um dos critérios do EB-2 NIW.",
+      "fonte": "[Business Standard, 08/11](https://www.business-standard.com/technology/tech-news/86-of-companies-suffer-cyber-breaches-amid-crisis-to-find-talent-126110800377_1.html) · [WECT, 02/11](https://www.wect.com/2026/11/02/new-report-shows-slow-progress-fill-statewide-nursing-shortages/)"
+    }
+  ],
+  "contexto": [
+    { "rotulo": "Visa Bulletin", "texto": "O boletim de dezembro ainda não saiu. Em novembro, o EB-2 do Brasil está com data de corte em 01/04/2025." },
+    { "rotulo": "Renovações", "texto": "Segue em análise a proposta que acaba com a deferência a aprovações anteriores nas renovações de H-1B, L-1 e O-1." },
+    { "rotulo": "Câmbio", "texto": "O dólar fechou a R$ 5,51 em 06/11, alta de cerca de 1,2% na semana e o maior fechamento de 2026." }
+  ],
+  "niw": {
+    "titulo": "O caminho que não depende de empregador",
+    "texto": "No EB-2 NIW (National Interest Waiver), o próprio profissional é o peticionário. Não há empresa patrocinadora nem sorteio. O USCIS avalia três critérios, definidos no caso Matter of Dhanasar:",
+    "criterios": [
+      "O trabalho proposto tem mérito substancial e importância nacional para os EUA.",
+      "O profissional está bem posicionado para levar esse trabalho adiante.",
+      "No conjunto, é benéfico para os EUA dispensar a exigência de oferta de emprego."
+    ]
+  },
+  "perfil": {
+    "titulo": "Quem costuma se qualificar ao EB-2",
+    "itens": [
+      "Mestrado ou doutorado na área de atuação",
+      "Graduação com pelo menos 5 anos de experiência progressiva",
+      "Habilidade excepcional comprovada por resultados, reconhecimento ou remuneração",
+      "Atuação em áreas de interesse dos EUA: engenharia, saúde, agronomia, tecnologia, pesquisa"
+    ]
+  },
+  "fechamento": {
+    "titulo": "O seu perfil se encaixa no EB-2 NIW?",
+    "texto": "Uma análise individual mostra o que o seu histórico já demonstra e o que precisa ser construído antes do protocolo."
+  },
+  "aviso": "Conteúdo informativo; não substitui a análise individual do seu caso. Não há garantia de aprovação nem de prazo. Informações atualizadas em 10/11/2026."
+}
